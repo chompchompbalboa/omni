@@ -1,0 +1,629 @@
+/*-----------------------------------------------------------------------------
+   9. Slider
+-----------------------------------------------------------------------------*/
+/**
+ * bxSlider v4.2.5
+ * Copyright 2013-2015 Steven Wanderski
+ * Written while drinking Belgian ales and listening to jazz
+
+ * Licensed under MIT (http://opensource.org/licenses/MIT)
+ */
+
+/** VARIABLES 
+===================================*/
+/** RESET AND LAYOUT
+===================================*/
+.bx-wrapper {
+  position: relative;
+  margin: 0 auto 60px;
+  padding: 0;
+  *zoom: 1;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+}
+.bx-wrapper img {
+  max-width: 100%;
+  display: block;
+}
+.bxslider {
+  margin: 0;
+  padding: 0;
+}
+ul.bxslider {
+  list-style: none;
+}
+.bx-viewport {
+  /*fix other elements on the page moving (on Chrome)*/
+  -webkit-transform: translatez(0);
+}
+/** THEME
+===================================*/
+.bx-wrapper {
+  -moz-box-shadow: 0 0 5px #ccc;
+  -webkit-box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px #ccc;
+  border: 5px solid #fff;
+  background: #fff;
+}
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+}
+/* LOADER */
+.bx-wrapper .bx-loading {
+  min-height: 50px;
+  background: url('../images/bx_loader.gif') center center no-repeat #ffffff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+/* PAGER */
+.bx-wrapper .bx-pager {
+  text-align: center;
+  font-size: .85em;
+  font-family: Arial;
+  font-weight: bold;
+  color: #666;
+  padding-top: 20px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #666;
+  text-indent: -9999px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  outline: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+  background: #000;
+}
+.bx-wrapper .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+.bx-wrapper .bx-pager-item {
+  font-size: 0;
+  line-height: 0;
+}
+/* DIRECTION CONTROLS (NEXT / PREV) */
+.bx-wrapper .bx-prev {
+  left: 10px;
+  // background: url('images/controls.png') no-repeat 0 -32px;
+}
+.bx-wrapper .bx-prev:hover,
+.bx-wrapper .bx-prev:focus {
+  background-position: 0 0;
+}
+.bx-wrapper .bx-next {
+  right: 10px;
+  // background: url('images/controls.png') no-repeat -43px -32px;
+}
+.bx-wrapper .bx-next:hover,
+.bx-wrapper .bx-next:focus {
+  background-position: -43px 0;
+}
+.bx-wrapper .bx-controls-direction a {
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  outline: 0;
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  z-index: 9999;
+}
+.bx-wrapper .bx-controls-direction a.disabled {
+  display: none;
+}
+/* AUTO CONTROLS (START / STOP) */
+.bx-wrapper .bx-controls-auto {
+  text-align: center;
+}
+.bx-wrapper .bx-controls-auto .bx-start {
+  display: block;
+  text-indent: -9999px;
+  width: 10px;
+  height: 11px;
+  outline: 0;
+  // background: url('images/controls.png') -86px -11px no-repeat;
+  margin: 0 3px;
+}
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active,
+.bx-wrapper .bx-controls-auto .bx-start:focus {
+  background-position: -86px 0;
+}
+.bx-wrapper .bx-controls-auto .bx-stop {
+  display: block;
+  text-indent: -9999px;
+  width: 9px;
+  height: 11px;
+  outline: 0;
+  // background: url('images/controls.png') -86px -44px no-repeat;
+  margin: 0 3px;
+}
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active,
+.bx-wrapper .bx-controls-auto .bx-stop:focus {
+  background-position: -86px -33px;
+}
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+  text-align: left;
+  width: 80%;
+}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+  right: 0;
+  width: 35px;
+}
+/* IMAGE CAPTIONS */
+.bx-wrapper .bx-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #666;
+  background: rgba(80, 80, 80, 0.75);
+  width: 100%;
+}
+.bx-wrapper .bx-caption span {
+  color: #fff;
+  font-family: Arial;
+  display: block;
+  font-size: .85em;
+  padding: 10px;
+}
+
+/*********************************************
+	-	SBX WRAPPER	-
+**********************************************/
+
+.bx-wrapper {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	*zoom: 1;
+    background-color: transparent;
+    box-shadow:none;
+    border:0;
+}
+
+.bx-wrapper img {
+	width: 100%;
+	display: block;
+}
+
+.bxslider {
+	margin: 0;
+	padding: 0;
+}
+
+.bx-viewport {
+	/*fix other elements on the page moving (on Chrome)*/
+	-webkit-transform: translatez(0);
+}
+
+/*********************************************
+	-	SLIDER-TXT 	-
+**********************************************/
+
+.slider-text-band{
+    @include size(100%);
+    text-align:center;
+    position:absolute;
+    max-width: 992px;
+    padding:0 1em;
+    top:0;
+    z-index:15;
+    
+    @include center(x);
+    @extend %the-center;
+
+
+}
+
+
+.slide-txt{
+    width:100% !important;
+    height:100%;
+    
+    li{
+        width:100% !important;
+    }
+
+    h1{
+        font-weight:normal;
+        @extend .hero-header;
+        letter-spacing: 2px;
+    }
+    
+    p{
+        margin: 0;
+        @extend .hero-sub-header;
+        font-size: 14px;
+    }
+    
+    a{
+        margin-top:20px;
+    }
+}
+
+.slider-desc{
+    .main-header{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    p{
+        @extend %standard-text;
+        padding: 3em 0;
+    }
+}
+
+.slider-desc__control{
+    position: relative;
+    
+    a{
+        display: inline-block;
+        font-size: 34px;
+        text-align: center;
+        line-height: 30px;
+        background-color: $base-color2;
+        color:$text-color;
+        @include transition(color .3s ease-in-out , background-color .3s ease-in-out);
+        
+        &:hover{
+            background-color: $base-color;
+            border-color: $text-color;
+            color:#fff;
+        }
+    }
+}
+
+
+
+.scroller-carousel{
+    position: relative;
+    width:100%;
+    overflow: auto;
+}
+
+
+/* slider_twitts */
+
+.slider-twitts-containt{
+    position: relative;
+    text-align: center;
+    padding:2em;
+    margin-top: 50px;
+    z-index:3;
+    
+    &:before{
+        content:'';
+        position: absolute;
+        @include size(100%);
+        top:0;
+        left:0;
+        z-index:-1;
+        @include transform(translate3d(-10px , -10px , 0));
+        border:1px solid $border-color;
+    }
+    
+    &:after{
+        content:'';
+        position: absolute;
+        @include size(100%);
+        top:0;
+        left:0;
+        z-index:-2;
+        @include transform(translate3d(0 , 0 , 0));
+        border:1px solid $border-color;
+    }
+    
+    i{
+        display: block;
+        font-size: 30px;
+        margin-bottom: 1em;
+    }
+}
+
+#slider_twitts{
+    img{
+        width:auto;
+        
+    }
+    
+    a{
+        color:$base-color;
+        font-weight: bold;
+
+    }
+}
+
+
+.rev_slider_wrapper{
+//    background-image: url(../images/pattern/strip.jpg);
+    background-color: #DDE5F3;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center center ;
+}
+
+.tp-caption.FoodCarousel-Button, .FoodCarousel-Button{
+    font-family: $main-font;
+}
+
+.tp-caption.FoodCarousel-Content, .FoodCarousel-Content{
+    font-family: $main-font;
+    background-color: $base-color;
+    text-align: center;
+//    background-image: url(../images/pattern/bg-texture-white.png);
+    color:#fff;
+    
+    a{
+        color:#fff;
+    }
+}
+
+.foodcarousel-headline{
+    &.main-header{
+        color:#fff;
+        font-weight: normal;
+        font-size: 24px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        &:before{
+            background-color: lighten($base-color,10%);
+        }
+        
+        &:after{
+            background-color: $border-color;
+        }
+    }
+}
+
+.foodcarousel-describe{
+    font-weight: normal;
+    font-size: 14px;
+    padding: 2em 0;
+    margin-bottom: 0;
+    
+    &.small-cap{
+        text-transform: none;
+    }
+}
+
+.foodcarousel-subline{
+    display: inline-block;
+    color:#fff;
+    margin:0 !important;
+    padding-bottom: 0 !important;
+    
+    &:before {
+        position: absolute;
+        top:0;
+        left:0;
+        vertical-align: middle;
+        content: '';
+        display: inline-block;
+        width: 100%;
+        height: 1px;
+        margin-right: .5em;
+        background-color: $border-color;
+    }
+}
+
+
+
+.erinyen .tp-thumb-title{
+    font-family: $main-font;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.erinyen .tp-thumb:hover .tp-thumb-title{
+    color:$base-color;
+    
+}
+
+
+.tp-caption.FoodCarousel-CloseButton, .FoodCarousel-CloseButton{
+    color:#fff;
+    font-size: 30px;
+
+}
+
+.tp-caption.Creative-Title, .Creative-Title{
+    font-family: $header-font;
+    text-transform: uppercase;
+    font-size: 50*$px;
+}
+
+.tp-caption.Creative-SubTitle, .Creative-SubTitle{
+    font-family: $main-font;
+    color:$base-color2;
+    font-size: 13px;
+}
+
+.metis .tp-tab-number,
+.metis .tp-tab-title{
+    font-family: $header-font;
+    text-transform: uppercase;
+}
+
+.metis .tp-tab.selected .tp-tab-divider{
+    border-right-color:$base-color2;
+}
+
+
+.tp-caption.Dining-Title, .Dining-Title{
+    font-family: $header-font;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.tp-caption.Dining-SubTitle, .Dining-SubTitle{
+    font-family: $main-font;
+    font-style: normal;
+    color:$base-color2;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.tp-caption.Dining-BtnLight, .Dining-BtnLight{
+    font-family: $main-font;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+.tp-caption.Concept-Notice, .Concept-Notice,
+.tp-caption.Concept-Title, .Concept-Title,
+.tp-caption.Concept-Content, .Concept-Content,
+.tp-caption.Concept-Title-Dark, .Concept-Title-Dark,
+.tp-caption.Concept-Content-Dark, .Concept-Content-Dark,{
+    font-family: $main-font;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.tp-caption.Concept-LessBtn, .Concept-LessBtn{
+    background-color: transparent;
+}
+
+.zeus .tp-bullet-title{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+
+.dione .tp-bullet{
+    background-color: transparent;
+    padding: 0;
+    
+    &.selected{
+        background: none;
+        padding: 0;
+    }
+    
+    &:hover{
+        background: none;
+    }
+}
+
+/*********************************************
+	-	TESTIMONIAL CLASSIC 	-
+**********************************************/
+
+.test-classic {
+    position: relative;
+    text-align: center;
+    color: $text-color;
+    padding:2em 2em 0 2em;
+    margin-top: 12*$px;
+    background-position: 50% 50%;
+    
+    .item{
+        img {
+            @include size(80px);
+            display: inline;
+            margin-bottom: 20px;
+            border-radius: 50%;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+
+        .standard-title {
+            display: inline-block;
+            padding-top:20px;
+            margin-bottom: 10px;
+            font-style: italic;
+            font-size: 20*$px;
+        }
+
+        span {
+            display: block;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            color:$base-color;
+        }
+        
+        &.overlay{
+            padding: 2em;
+            background-color: #fff;
+            box-shadow: 0 0 1px rgba(0,0,0,.2);
+
+            
+            p{
+                color:$text-color;
+                font-size: 14px; 
+            }
+            
+            .standard-title{
+                padding-top: 20px;
+                position: relative; 
+                
+                &:after{
+                    content:'';
+                    background-color: $border-color;
+                    width: 50px;
+                    height:1px;
+                    position: absolute;
+                    top:0;
+                    @include center(x);
+                }
+            }
+            
+            .standard-title,
+            span{
+                color:$base-color;
+            }
+            
+            span{
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+        }
+    }
+    
+    .bx-next,
+    .bx-prev{
+        display: inline-block;
+        a{
+            display: inline-block;
+            font-size: 40px;
+            color:$base-color;
+            text-align: center;
+            line-height: 40px;
+            @include transition(opacity .4s ease-in-out, transform .4s ease-in-out);
+        }
+    }
+
+    
+    
+    .bx-wrapper .bx-pager.bx-default-pager a {
+        background-color: $base-color2;
+        &:hover {
+            background-color: $base-color;
+        }
+        &.active {
+            background-color: $base-color;
+        }
+    }
+}
+

@@ -1,0 +1,60 @@
+/*-----------------------------------------------------------------------------
+   25. Footer
+-----------------------------------------------------------------------------*/
+
+.footer-mini{
+    padding-top: $space-y;
+}
+
+.block-info{
+    
+    @include media('<desktop'){
+        margin-bottom: 30px;
+        
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    
+    i{
+        font-size: 40px;
+        display: block;
+        margin-top: 20px;
+    }
+    
+    .main-header{
+        &:after{
+//            @include center(x);
+        }
+    }
+    
+    p{
+        @extend %standard-text;
+        margin-bottom: 0;
+    }
+    
+    li{
+        display: inline-block;
+        
+        a{
+            display: inline-block;
+            padding:0 10px;
+            
+            i{
+                font-size: 20px;
+                margin: 0;
+            }
+        }
+    }
+}
+
+.copy-right{
+    padding:$space-small 0;
+    background-color: $base-color;
+    color:$base-color2;
+    font-size: 12px;
+    
+    a{
+       color:$base-color2;
+    }
+}

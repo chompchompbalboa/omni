@@ -1,0 +1,200 @@
+/*-----------------------------------------------------------------------------
+   3. Extra Classes
+-----------------------------------------------------------------------------*/
+
+.container-fluid-flat{
+    position: relative;
+    
+    .row{
+        margin-left:0;
+        margin-right:0;
+    } 
+    
+    [class*='col-'] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+} 
+
+
+
+.container,
+.container-fluid{ 
+    &.no-gutter{
+        .row{
+            margin: 0;
+        }
+        [class*='col-']{
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+    &.add-margin{
+       [class*='col-']{
+           margin-right: 15px;
+           margin-left: 15px;
+        }
+    }
+}
+
+@include media(">wide-screen"){
+    .container-fluid{
+        padding-left: 84px;
+        padding-right: 84px;
+        
+        &.add-marg{
+            margin-left: 84px;
+            margin-right: 84px;
+            padding-bottom: 84px;
+        }
+        
+        &.with-zic-left{
+            position: relative;
+            &:before{
+                content:'';
+                position: absolute;
+                height:100%;
+                width:84px;
+                left:-84px;
+                top:0;
+                display: block;
+                background-color: #fff;
+            }
+        }
+        
+        &.with-zic-right{
+            position: relative;
+            &:before{
+                content:'';
+                position: absolute;
+                height:100%;
+                width:84px;
+                right:-84px;
+                top:0;
+                display: block;
+                background-color: #fff;
+            }
+        }
+        
+        &.container-normal{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+}
+
+/*********************************************
+	-	SPACE 	-
+**********************************************/
+
+.space-y{
+    padding-top:$space-y;
+    padding-bottom:$space-y;
+}
+
+.space-y-quarter{
+    padding-top:$space-y-quarter;
+    padding-bottom:$space-y-quarter;
+}
+
+.space-y-quarter-t{
+    padding-top:$space-y-quarter;
+}
+
+.space-y-half{
+    padding-top:$space-y-half;
+    padding-bottom:$space-y-half;
+}
+
+.space-small{
+    padding-top:$space-small;
+    padding-top:$space-small;
+}
+
+.space-y-t{
+    padding-top:$space-y;
+}
+
+.space-y-b{
+    padding-bottom:$space-y;
+}
+
+.space-y-t-h{
+    padding-top:$space-y-half;
+}
+
+.space-y-b-h{
+    padding-bottom:$space-y-half;
+}
+
+.space-y-t-s{
+    padding-top:$space-small;
+}
+
+.space-y-b-s{
+    padding-bottom:$space-small;
+}
+
+.space-nav{
+    @include media(">desktop"){
+        margin-top: 82px;
+    }
+}
+
+/*remove padding bottom under desktop */
+.remove-pb-d{
+    @include media("<desktop"){
+        padding-bottom: 0 !important;
+    }
+}
+
+/*remove padding bottom under tablet */
+.remove-pb-t{
+    @include media("<tablet"){
+        padding-bottom: 0 !important;
+    }
+}
+
+/* add padding bottm - 30px */
+.space-y-b-m30{
+    padding-bottom:($space-y - 30*$px);
+}
+
+/* add margin bottom 30px */
+.space-ml-30{
+    margin-bottom: 30px;
+}
+
+/* add margin bottom 30px under desktop */
+.space-md-30{
+    @include media("<desktop"){
+        margin-bottom: 30px;
+    }
+}
+
+/* add margin top 30px under desktop*/
+.space-mdt-30{
+    @include media("<desktop"){
+        margin-top: 30px;
+    }
+}
+
+/*add margin bottom 30px + header margin*/
+
+.mb-30{
+    margin-bottom: calc(30px + 1.313em) !important;
+}
+
+.equal-element{
+    @include media("<desktop"){
+        display: none;
+    }
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.full-width{
+    with:100%;
+}

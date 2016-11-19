@@ -11,6 +11,19 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/*
+* Rocky Eastman
+*
+* rockyeastman.com
+*/
+$rockyeastman = function() {
+
+    Route::get('/', function() {
+        return view('rockyeastman.welcome');
+    });
+
+    Route::get('/preview/{previewID}', 'PreviewController@loadPreview');
+    
+};
+Route::group(['domain' => 'rockyeastman.com'], $rockyeastman);
+Route::group(['domain' => 'rockyeastman.local'], $rockyeastman);

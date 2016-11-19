@@ -1,0 +1,167 @@
+/*-----------------------------------------------------------------------------
+   7. Scene
+-----------------------------------------------------------------------------*/
+
+.scene-restaurant {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    
+    .layer {
+        display: block;
+        padding: 0;
+        margin: 0;
+        @include size(100%);
+    }
+    
+    .bg-scene{
+        position: absolute;
+        backface-visibility: hidden;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        transform: translate3d(0px, 0px, 0px);
+        min-height: 100%;
+
+        &.bg {
+//            margin: -1% -2% -2% -2%;
+//            position: relative;
+            top:0;
+            left:0;
+            transform: translate3d(0px, 0px, 0px);
+            width: 100%;
+            height: 100%;
+            background-image: url(../images/pattern/pattern-dark.jpg);
+            background-repeat: repeat;
+            background-size: contain;
+            &:before {
+                content: "";
+                display: block;
+                min-height: 300px;
+                padding-top: 30%;
+            }
+        } 
+
+        &.cap {
+            bottom: -30%;
+            left: -10%;
+            width: 40%;
+            height: auto;
+            background-position: right bottom;
+            background-size: contain;
+            background-image: url(../images/scene/cap.png);
+            @include media('<=tablet'){
+                bottom: -5%;
+            }
+        }
+        
+        &.iphone {
+            bottom: -30%;
+            right: 15%;
+            width: 18%;
+            height: auto;
+            background-position: right bottom;
+            background-size: contain;
+            background-image: url(../images/scene/iphone.png);
+            @include media('<=tablet'){
+                bottom: -5%;
+            }
+        }
+        
+        &.crumbs {
+            bottom: -10%;
+            right: 15%;
+            width: 30%;
+            height: auto;
+            background-position: right bottom;
+            background-size: contain;
+            background-image: url(../images/scene/crumbs.png);
+            @include media('<=tablet'){
+                bottom: 0;
+            }
+        }
+        
+        &.flour-glass {
+            position: absolute;
+            bottom: 30%;
+            right: -5%;
+            width: 22%;
+            height: auto;
+            background-position: right bottom;
+            background-size: contain;
+            background-image: url(../images/scene/flour-glass.png);
+        }
+        
+        &.flour {
+            bottom: 20%;
+            right: -5%;
+            width: 30%;
+            height: auto;
+            background-position: right bottom;
+            background-size: contain;
+            background-image: url(../images/scene/flour.png);
+        }
+
+        &.bread{
+            bottom:-40%;
+            right:0;
+            width:23%;
+            position: absolute;
+            background-position: center center;
+            background-size: contain;
+            background-image: url(../images/scene/bread.png);
+            @include media('<=tablet'){
+                top:0;
+                left:0;
+            }
+        }
+        
+        &.breadroll-01{
+            top:-25%;
+            right:20%;
+            width:20%;
+            position: absolute;
+            background-position: left top;
+            background-size: contain;
+            background-image: url(../images/scene/breadroll-01.png);
+            @include media('<=tablet'){
+                top:0;
+                left:40%;
+            }
+        }
+        
+        &.breadroll-02{
+            top:-15%;
+            right:5%;
+            width:20%; 
+            background-position: right top;
+            background-size: contain;
+            background-image: url(../images/scene/breadroll-02.png);
+            @include media('<=tablet'){
+                top:0;
+            }
+        }
+        
+        &.spatula{
+            top:10%;
+            left:10%;
+            width:15%;
+            background-position: center center;
+            background-size: contain;
+            background-image: url(../images/scene/spatula.png);
+        }
+        
+        &.wood-spoon{
+            top:10%;
+            left:0;
+            width:15%;
+            background-position: center center;
+            background-size: contain;
+            background-image: url(../images/scene/wood-spoon.png);
+        }
+    }
+}

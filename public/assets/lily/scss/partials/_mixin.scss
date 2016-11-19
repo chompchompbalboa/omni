@@ -1,0 +1,139 @@
+@mixin size($width, $height: $width) {
+      width: $width;
+      height: $height;
+}
+
+// center vertically and/or horizontally an absolute positioned element
+
+@mixin center($xy:xy) {
+  @if $xy == xy {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    @include transform(translateX(-50%) translateY(-50%));
+  }
+  @else if $xy == x {
+    left: 50%;
+    right: auto;
+    @include transform(translateX(-50%));
+  }
+  @else if $xy == y {
+    top: 50%;
+    bottom: auto;
+    @include transform(translateY(-50%));
+  }
+}
+
+// super light grid - it works with the .cd-container class inside style.scss
+
+@mixin column($percentage, $float-direction) {
+  width: 100% * $percentage;
+  float: $float-direction;
+}
+
+
+
+@mixin aspect-ratio($ratio-or-width, $height: null) {
+    position: relative;
+    $padding: if($height, percentage($height/$ratio-or-width), percentage(1/$ratio-or-width));
+    
+    &:before {
+        content: '';
+        width:100%;
+        display: block;
+        padding-bottom: $padding;
+    }
+    
+    >.aspect-content{
+        position: absolute;
+        top:0;
+        right:0;
+        bottom:0;
+        left:0;
+    }
+}
+
+
+$htag_lineheight: 1.313em;
+$htag_family: $header-font;
+$htag_weight: normal;
+
+// H tag font sizes 1 through 6
+$htag_sizes: 3, 2.25, 1.5, 1.313, 1.125, 1;
+
+// H tag vertical margins 1 through 6
+$htag_vmargins: 0.563, 0.625, 1.313, 1.313, 1.313, 0.75;
+
+@mixin htags( $factor: 1 ){
+	h1, h2, h3, h4, h5, h6 {
+		font-family: $htag_family;
+		line-height: $htag_lineheight;
+		font-weight: $htag_weight;
+        color:$base-color;
+	}
+	@for $i from 1 through 6 {
+		h#{$i} {
+			$value: nth($htag_sizes, $i);
+			$size: if( ($value * $factor) < 1, 1, $value * $factor );
+			font-size: $size * 1em;
+			margin: ( nth($htag_vmargins, $i) * 1em ) 0;
+		}
+	}
+	// Set H1 widget titles default size
+	.custom-title {
+		$default: nth($htag_sizes, 4);
+		$size: if( ($default * $factor) < 1, 1, $default * $factor );
+		font-size: $size * 1em;
+	}
+}
+
+// this mixin to solve the transition prifix breaks with transform in bourbon
+
+@mixin trans-prefix($value, $prefix: "") {
+  $slice: str-slice(inspect($value), 0, 9);
+  @if $slice == "transform" {
+    #{$prefix}transition: #{$prefix}#{$value};
+  } @else {
+    #{$prefix}transition: $value;
+  }
+}
+@mixin transition($properties...) {
+  @if length($properties) > 1 {
+    $spec:              ();
+    @for $i from 1 through length($properties) {
+      $spec:            append($spec, nth($properties, $i), comma);
+    }
+  } @else {
+    $spec:              $properties;
+  }
+  @include trans-prefix($spec, -webkit-);
+  @include trans-prefix($spec, -moz-);
+  @include trans-prefix($spec);
+}
+
+
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// SMALL GRID
+
+@mixin smallGrid($itemPerRow, $margin:0, $float:left){
+    margin-right:$margin;
+    margin-bottom:$margin;
+    float:$float;
+    &:nht-child(n){
+        margin-right: $margin;
+    }
+    &:nth-child(#{$itemPerRow}n){
+        margin-right: 0;
+    }
+    
+    @if($margin > 0 ){
+        width:((100% - (($itemPerRow - 1) * $margin))  / $itemPerRow);
+    } @else{
+        width:(100%  / $itemPerRow);
+    }
+}

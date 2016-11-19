@@ -1,0 +1,92 @@
+/*-----------------------------------------------------------------------------
+   10. Buttons
+-----------------------------------------------------------------------------*/
+
+$btn-xsmall:.35rem 1.50rem;
+$btn-small:.50rem 1.75rem;
+$btn-medium:.75rem 2rem;
+$btn-large:1rem 2.25rem;
+
+@mixin btn-size($padding:$padding){
+    padding:$padding;
+  
+    @if      $padding == $btn-xsmall { font-size: 10*$px; }
+    @else if $padding == $btn-small { font-size: 12*$px; }
+    @else if $padding == $btn-medium { font-size: 14*$px; }
+    @else if $padding == $btn-large { font-size: 16*$px; }
+}
+
+
+%btn-base{
+    display:inline-block;
+    width:auto;
+    height:auto;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    cursor:pointer;
+    line-height: 1.5em;
+    text-align: center;
+    @include transition(color .4s ease-in-out , opacity .4s ease-in-out , transform .4s ease-in-out, background-color .4s ease-in-out , border-color .4s ease-in-out);
+}
+
+
+@mixin btn-color($color, $transparent:null, $basecolor:null) {
+    $bgc:if($transparent, $transparent , $color);
+    $bgc:if($basecolor, $basecolor , $color);
+	background-color: $bgc;
+	border: 1px solid $base-color;
+    color:$text-color;
+
+	
+	&:hover,
+    &:active,
+    &:focus{
+		cursor: pointer;
+		background-color: $base-color;
+		border-color: $base-color;
+        color:#fff;
+	}
+}
+
+
+.btn-main{
+    @include btn-color($base-color2);
+    @extend %btn-base;
+    
+    &.transparent{
+        @include btn-color($base-color2, transparent, transparent);
+        color:$base-color2;
+        border:1px solid rgba($base-color2,.5);
+    }
+    
+    &.transparent-2{
+        @include btn-color($base-color2, transparent, transparent);
+        color:$base-color;
+        border:1px solid $base-color;
+    }
+    
+    
+    &.btn-dark{
+        @include btn-color($base-color2, transparent, $base-color);
+        color:#fff;
+    }
+
+    &.xsmall{
+      @include btn-size($btn-xsmall);
+    }
+    &.small{
+      @include btn-size($btn-small);
+    }
+    &.medium{
+      @include btn-size($btn-medium);
+    }
+    &.large{
+      @include btn-size($btn-large );
+    }
+    
+    i{
+        margin-right: 5px;
+        font-size: 16px;
+        vertical-align: middle;
+    }
+}

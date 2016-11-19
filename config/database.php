@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'mongodb'),
 
     /*
     |--------------------------------------------------------------------------
@@ -46,12 +46,6 @@ return [
 
     'connections' => [
 
-        'sqlite' => [
-            'driver' => 'sqlite',
-            'database' => env('DB_DATABASE', database_path('database.sqlite')),
-            'prefix' => '',
-        ],
-
         'mysql' => [
             'driver' => 'mysql',
             'host' => env('DB_HOST', 'localhost'),
@@ -66,17 +60,16 @@ return [
             'engine' => null,
         ],
 
-        'pgsql' => [
-            'driver' => 'pgsql',
-            'host' => env('DB_HOST', 'localhost'),
-            'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
-            'charset' => 'utf8',
-            'prefix' => '',
-            'schema' => 'public',
-            'sslmode' => 'prefer',
+        'mongodb' => [
+            'driver'   => 'mongodb',
+            'host'     => env('DB_HOST', '127.0.0.1'),
+            'port'     => env('DB_PORT', 27017),
+            'database' => env('DB_DATABASE', 'omni'),
+            'username' => env('DB_USERNAME'),
+            'password' => env('DB_PASSWORD'),
+            'options' => [
+                'database' => 'omni' // sets the authentication database required by mongo 3
+            ]
         ],
 
     ],

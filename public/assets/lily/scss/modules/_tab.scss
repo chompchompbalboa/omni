@@ -1,0 +1,108 @@
+/*-----------------------------------------------------------------------------
+   17. Tab
+-----------------------------------------------------------------------------*/
+
+.panel{
+    background-color: transparent;
+    border:0;
+    box-shadow: none;
+}
+
+.menu-categorize{
+    .panel-heading{
+        text-align: center;
+        .main-header{
+            display: block;
+            >a{
+                @extend .menu-categorize__header;
+                background: none;
+                text-decoration: none;
+
+                @include media("<tablet"){
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+}
+
+
+.panel-default>.panel-heading{
+    background: none;
+    border:0;
+    color:$base-color;
+}
+
+.nav-tab-content{
+    position: relative;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body{
+    border:0;
+    
+    .col-sm-6{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.menu-categorize {
+    .nav-tabs {
+        border: 0;
+        position: relative;
+        text-align: center;
+        
+        .menu-categorize__header {
+            font-family: $header-font;
+            margin-right: 0;
+            border:0;
+            padding: 0 0 1em 0;
+            display: block;
+            margin: 0.625em 0;
+            color:lighten($base-color, 30%);
+            @extend .main-header;
+            &:after{
+                width:(100% - 10%);
+                margin: auto;
+                right:0;
+            }
+            &:hover{
+                color:$base-color;
+                background-color: transparent;
+                border:0;
+            }
+            &:focus{
+                background-color: transparent;
+                border: 0;
+                color:$base-color;
+            }
+            
+        }
+        
+        .active{
+            a {
+                color:$base-color;
+                border:0;
+                background: none;
+            }
+        }
+        
+        li{
+            width:(100% / 3);
+            &:first-child{
+                a{
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}
+
+
+.panel-heading,
+.panel-body{
+    padding:0;
+}
+
+
+
