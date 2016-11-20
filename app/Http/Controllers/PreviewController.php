@@ -17,6 +17,7 @@ class PreviewController extends Controller
      * Constructor
      *
      * @param  Previews  $previews
+     * @param  SiteLoader  $siteLoader
      */
     public function __construct(Previews $previews, SiteLoader $siteLoader)
     {

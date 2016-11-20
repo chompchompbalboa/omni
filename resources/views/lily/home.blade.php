@@ -532,7 +532,7 @@ $path = "assets/lily"
 
                         <div class="overlay-boxes__text text-center">
                            
-                           <h1 class="text-bold main-header">reservation</h1>
+                           <h1 class="text-bold main-header">reservations</h1>
 
                             <p>We accept reservations. call us or complete the form below</p>
 
@@ -562,20 +562,10 @@ $path = "assets/lily"
                 <!--/ container -->
                     
                 <div class="map-container">
-                   
-                    <div id="googleMap" class="map-wrap">
-
-                        <div class="gmap_canvas" 
-                        data-latitude="-37.817314" 
-                        data-longitude="144.955431" 
-                        data-style-num="0" 
-                        data-marker-location1="121 King Street, Melbourne , Victoria 3000 Australia" 
-                        data-marker-location2="121 Bourke Street, Melbourne , Victoria 3000 Australia" 
-                        data-marker2-visible="false" 
-                        data-marker1-content="where the magic happen">
+                    <a class="_mapLink" href="{{ $data['mapLink'] }}" target="_blank">
+                        <div class="__mapImage __backgroundImage" style="background-image:url({{ $data['mapStaticURL'] }})">
                         </div>
-
-                    </div>
+                    </a>
                     <!-- / map-wrap -->
                     
                 </div>
@@ -856,9 +846,6 @@ $path = "assets/lily"
     <script src="/{{ $path }}/quform/js/plugins.js"></script>
     <script src="/{{ $path }}/quform/js/scripts.js"></script>
     <script src="/{{ $path }}/js/gridrotator.js"></script>
-
-    <script src="http://maps.google.com/maps/api/js"></script>
-    <script src="/{{ $path }}/js/map-script.js"></script>
 
     <script src="/{{ $path }}/js/velocity.min.js"></script>
     <script src="/{{ $path }}/js/jquery.animsition.js"></script>

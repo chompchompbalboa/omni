@@ -9583,6 +9583,20 @@ Javascript disabled
   background-size: cover;
 }
 
+.__mapImage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.__mapLink {
+  width: 100%;
+  height: 100%;
+}
+
 .__whiteHover:hover {
   color: white !important;
 }

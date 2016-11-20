@@ -2,8 +2,20 @@
 
 namespace App\Helpers;
 
+use App\Helpers\GoogleMaps;
+
 class SiteLoader
 {
+
+    /**
+     * Constructor
+     *
+     * @param  GoogleMaps $googleMaps
+     */
+    public function __construct(GoogleMaps $googleMaps)
+    {
+        $this->googleMaps = $googleMaps;
+    }
 
     /**
      * Lily
@@ -49,6 +61,14 @@ class SiteLoader
         foreach($default as $property => $value) {
             $data[$property] = (isset($site->$property) ? $site->$property : $default[$property]);
         }
+
+        // Additional data
+        $data['mapStaticURL'] = $this->googleMaps->staticURL(
+                                                            [
+                                                                "center" => str_replace(" ", "+", $data['address']),
+                                                            ], 
+                                                            "NightWork");
+        $data['mapLink'] = $this->googleMaps->mapLink("");
 
         // Return
         return view('lily.home', ["data" => $data]);
