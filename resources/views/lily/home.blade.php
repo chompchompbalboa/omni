@@ -730,7 +730,7 @@ $path = "assets/lily"
 
     <script src="/{{ $path }}/js/jquery-1.12.4.min.js"></script>
     <script src="/{{ $path }}/js/jquery-ui.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
     <script src="/{{ $path }}/js/bootstrap.js"></script>
     <script src="/{{ $path }}/js/bootstrap-tabcollapse.js"></script>
 
