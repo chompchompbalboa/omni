@@ -483,7 +483,7 @@ $path = "assets/lily"
 
                             <div class="quform-outer">
 
-                                <form class="quform quform-lines" action="quform/process-v2.php" method="post" enctype="multipart/form-data" onclick="">
+                                <form class="quform quform-lines" action="" method="post" enctype="multipart/form-data" onsubmit="return false">
 
                                     <div class="quform-inner">
 
@@ -743,8 +743,6 @@ $path = "assets/lily"
     <script src="/{{ $path }}/js/jquery.bxslider.min.js"></script>
 
     <script src="/{{ $path }}/js/jquery.magnific-popup.min.js"></script>
-    <script src="/{{ $path }}/quform/js/plugins.js"></script>
-    <script src="/{{ $path }}/quform/js/scripts.js"></script>
     <script src="/{{ $path }}/js/gridrotator.js"></script>
 
     <script src="/{{ $path }}/js/velocity.min.js"></script>
