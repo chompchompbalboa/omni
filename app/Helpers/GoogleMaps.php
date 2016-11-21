@@ -58,7 +58,9 @@ class GoogleMaps
      * @param  $parameters
      * @return string
      */
-    public function mapLink($parameters)
+    public function mapLink($name, $address)
     {
+        $query = str_replace(" ", "+", $name.",".$address);
+        return ("https://www.google.com/maps/place/".$query);
     }
 }

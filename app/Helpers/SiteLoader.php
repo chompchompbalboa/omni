@@ -45,6 +45,10 @@ class SiteLoader
             "image_7" => "/assets/lily/images/restaurants/sushi/4.jpg",
             "image_8" => "/assets/lily/images/restaurants/sushi/19.jpg",
             "image_9" => "/assets/lily/images/restaurants/sushi/20.jpg",
+            "image_10" => "/assets/lily/images/restaurants/sushi/22.jpg",
+            "image_11" => "/assets/lily/images/restaurants/sushi/7.jpg",
+            "image_12" => "/assets/lily/images/restaurants/sushi/8.jpg",
+            "image_13" => "/assets/lily/images/restaurants/sushi/9.jpg",
             "introMessage_1" => "We're glad you're here!",
             "introMessage_2" => "Delicious sushi in a setting perfect for any occasion",
             "name" => "Cutting Board",
@@ -68,7 +72,7 @@ class SiteLoader
                                                                 "center" => str_replace(" ", "+", $data['address']),
                                                             ], 
                                                             "NightWork");
-        $data['mapLink'] = $this->googleMaps->mapLink("");
+        $data['mapLink'] = $this->googleMaps->mapLink($data['name'], $data['address']);
 
         // Return
         return view('lily.home', ["data" => $data]);

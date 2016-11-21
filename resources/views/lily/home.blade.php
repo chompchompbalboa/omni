@@ -270,13 +270,13 @@ $path = "assets/lily"
                <main class="cd-main">
                    <ul class="cd-gallery">
                         <li class="cd-item">
-                          <a href="food-menu/item-1.html" class="layer-panr__link">
+                          <a href="/{{ $path }}/food-menu/example.html" class="layer-panr__link">
                                 <div class="cd-item__img layer-panr">
-                                    <img class="visible-xs" src="http://placehold.it/1200x675" alt="">
-                                    <img class="hidden-xs layer-panr__img" src="http://placehold.it/800x800" alt="">
+                                    <img class="visible-xs" src="{{ $data['image_10'] }}" alt="">
+                                    <img class="hidden-xs layer-panr__img" src="{{ $data['image_10'] }}" alt="">
                                     <div class="cd-item__img--text visible-xs">
-                                        <h2 class="overlay-header alternative">apetizers</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                        <h2 class="overlay-header alternative">Click here</h2>
+                                        <p>To open a sample menu</p>
                                         <i class="pe-7s-close"></i>
                                     </div>
                                 </div>
@@ -284,8 +284,8 @@ $path = "assets/lily"
                                 <div class="cd-item__text hidden-xs">
                                     <div class="cd-item__inner">
                                         <img src="/{{ $path }}/images/icons/102.png" alt="" class="icon-img">
-                                        <h2 class="overlay-header alternative">apetizers</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                        <h2 class="overlay-header alternative">Click here</h2>
+                                        <p>To open a sample menu</p>
                                         <i class="pe-7s-close"></i>
                                     </div>
                                 </div>
@@ -295,13 +295,13 @@ $path = "assets/lily"
                         <!-- / cd item -->
                         
                         <li class="cd-item">
-                          <a href="food-menu/item-2.html" class="layer-panr__link">
+                          <a href="/{{ $path }}/food-menu/example.html" class="layer-panr__link">
                                 <div class="cd-item__img layer-panr">
-                                   <img class="visible-xs" src="http://placehold.it/1200x675" alt="">
-                                    <img class="hidden-xs layer-panr__img" src="http://placehold.it/800x800" alt="">
+                                   <img class="visible-xs" src="{{ $data['image_11'] }}" alt="">
+                                    <img class="hidden-xs layer-panr__img" src="{{ $data['image_11'] }}" alt="">
                                     <div class="cd-item__img--text visible-xs">
-                                        <h2 class="overlay-header alternative">salads</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                        <h2 class="overlay-header alternative">Click here</h2>
+                                        <p>To open a sample menu</p>
                                         <i class="pe-7s-close"></i>
                                     </div>
                                 </div>
@@ -309,8 +309,8 @@ $path = "assets/lily"
                                 <div class="cd-item__text hidden-xs">
                                     <div class="cd-item__inner">
                                         <img src="/{{ $path }}/images/icons/55.png" alt="" class="icon-img">
-                                        <h2 class="overlay-header alternative">salads</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                        <h2 class="overlay-header alternative">Click here</h2>
+                                        <p>To open a sample menu</p>
                                         <i class="pe-7s-close"></i>
                                     </div>
                                 </div>
@@ -320,22 +320,22 @@ $path = "assets/lily"
                         <!-- / cd item -->
                         
                         <li class="cd-item">
-                          <a href="food-menu/item-3.html" class="layer-panr__link">
+                          <a href="/{{ $path }}/food-menu/example.html" class="layer-panr__link">
                                <div class="cd-item__text hidden-xs right-arrow">
                                     <div class="cd-item__inner">
                                         <img src="/{{ $path }}/images/icons/129.png" alt="" class="icon-img">
-                                        <h2 class="overlay-header alternative">butcher block</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                        <h2 class="overlay-header alternative">Click here</h2>
+                                        <p>To open a sample menu</p>
                                         <i class="pe-7s-close"></i>
                                     </div>
                                 </div>
                                 <!-- / cd-item__text -->
                                 <div class="cd-item__img layer-panr">
-                                   <img class="visible-xs" src="http://placehold.it/1200x675" alt="">
-                                    <img class="hidden-xs layer-panr__img" src="http://placehold.it/800x800" alt="">
+                                   <img class="visible-xs" src="{{ $data['image_12'] }}" alt="">
+                                    <img class="hidden-xs layer-panr__img" src="{{ $data['image_12'] }}" alt="">
                                     <div class="cd-item__img--text visible-xs">
-                                        <h2 class="overlay-header alternative">butcher block</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                        <h2 class="overlay-header alternative">Click here</h2>
+                                        <p>To open a sample menu</p>
                                         <i class="pe-7s-close"></i>
                                     </div>
                                 </div>
@@ -345,133 +345,35 @@ $path = "assets/lily"
                         <!-- / cd item -->
                         
                         <li class="cd-item">
-                          <a href="food-menu/item-4.html" class="layer-panr__link">
+                          <a href="/{{ $path }}/food-menu/example.html" class="layer-panr__link">
                                <div class="cd-item__text hidden-xs right-arrow">
                                     <div class="cd-item__inner">
                                         <img src="/{{ $path }}/images/icons/176.png" alt="" class="icon-img">
-                                        <h2 class="overlay-header alternative">big plates</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                        <h2 class="overlay-header alternative">Click here</h2>
+                                        <p>To open a sample menu</p>
                                         <i class="pe-7s-close"></i>
                                     </div>
                                 </div>
                                 <!-- / cd-item__text -->
                                 <div class="cd-item__img layer-panr">
-                                   <img class="visible-xs" src="http://placehold.it/1200x675" alt="">
-                                    <img class="hidden-xs layer-panr__img" src="http://placehold.it/800x800" alt="">
+                                   <img class="visible-xs" src="{{ $data['image_13'] }}" alt="">
+                                    <img class="hidden-xs layer-panr__img" src="{{ $data['image_13'] }}" alt="">
                                     <div class="cd-item__img--text visible-xs">
-                                        <h2 class="overlay-header alternative">big plates</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                        <h2 class="overlay-header alternative">Click here</h2>
+                                        <p>To open a sample menu</p>
                                         <i class="pe-7s-close"></i>
                                     </div>
                                 </div>
                                 <!-- / cd-item__img -->
                             </a>
                         </li>
-                        <!-- / cd item -->
-                        
-                        <li class="cd-item">
-                          <a href="food-menu/item-5.html" class="layer-panr__link">
-                                <div class="cd-item__img layer-panr">
-                                   <img class="visible-xs" src="http://placehold.it/1200x675" alt="">
-                                    <img class="hidden-xs layer-panr__img" src="http://placehold.it/800x800" alt="">
-                                    <div class="cd-item__img--text visible-xs">
-                                        <h2 class="overlay-header alternative">desserts</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                                        <i class="pe-7s-close"></i>
-                                    </div>
-                                </div>
-                                <!-- / cd-item__img -->
-                                <div class="cd-item__text hidden-xs">
-                                    <div class="cd-item__inner">
-                                        <img src="/{{ $path }}/images/icons/146.png" alt="" class="icon-img">
-                                        <h2 class="overlay-header alternative">desserts</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                                        <i class="pe-7s-close"></i>
-                                    </div>
-                                </div>
-                                <!-- / cd-item__text -->
-                            </a>
-                        </li>
-                        <!-- / cd item -->
-                        
-                        <li class="cd-item">
-                          <a href="food-menu/item-6.html" class="layer-panr__link">
-                                <div class="cd-item__img layer-panr">
-                                   <img class="visible-xs" src="http://placehold.it/1200x675" alt="">
-                                    <img class="hidden-xs layer-panr__img" src="http://placehold.it/800x800" alt="">
-                                    <div class="cd-item__img--text visible-xs">
-                                        <h2 class="overlay-header alternative">coffee</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                                        <i class="pe-7s-close"></i>
-                                    </div>
-                                </div>
-                                <!-- / cd-item__img -->
-                                <div class="cd-item__text hidden-xs">
-                                    <div class="cd-item__inner">
-                                        <img src="/{{ $path }}/images/icons/185.png" alt="" class="icon-img">
-                                        <h2 class="overlay-header alternative">coffee</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                                        <i class="pe-7s-close"></i>
-                                    </div>
-                                </div>
-                                <!-- / cd-item__text -->
-                            </a>
-                        </li>
-                        <!-- / cd item -->
-                        
-                        <li class="cd-item">
-                          <a href="food-menu/item-7.html" class="layer-panr__link">
-                               <div class="cd-item__text hidden-xs right-arrow">
-                                    <div class="cd-item__inner">
-                                        <img src="/{{ $path }}/images/icons/200.png" alt="" class="icon-img">
-                                        <h2 class="overlay-header alternative">alcoholic beverages</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                                        <i class="pe-7s-close"></i>
-                                    </div>
-                                </div>
-                                <!-- / cd-item__text -->
-                                <div class="cd-item__img layer-panr">
-                                   <img class="visible-xs" src="http://placehold.it/1200x675" alt="">
-                                    <img class="hidden-xs layer-panr__img" src="http://placehold.it/800x800" alt="">
-                                    <div class="cd-item__img--text visible-xs">
-                                        <h2 class="overlay-header alternative">alcoholic beverages</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                                        <i class="pe-7s-close"></i>
-                                    </div>
-                                </div>
-                                <!-- / cd-item__img -->
-                            </a>
-                        </li>
-                        <!-- / cd item -->
-                        
-                        <li class="cd-item">
-                          <a href="food-menu/item-8.html" class="layer-panr__link">
-                               <div class="cd-item__text hidden-xs right-arrow">
-                                    <div class="cd-item__inner">
-                                        <img src="/{{ $path }}/images/icons/119.png" alt="" class="icon-img">
-                                        <h2 class="overlay-header alternative">alcohol free</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                                        <i class="pe-7s-close"></i>
-                                    </div>
-                                </div>
-                                <!-- / cd-item__text -->
-                                <div class="cd-item__img layer-panr">
-                                   <img class="visible-xs" src="http://placehold.it/1200x675" alt="">
-                                    <img class="hidden-xs layer-panr__img" src="http://placehold.it/800x800" alt="">
-                                    <div class="cd-item__img--text visible-xs">
-                                        <h2 class="overlay-header alternative">alcohol free</h2>
-                                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                                        <i class="pe-7s-close"></i>
-                                    </div>
-                                </div>
-                                <!-- / cd-item__img -->
-                            </a>
-                        </li>
-                        <!-- / cd item -->
                     </ul> <!-- .cd-gallery -->
                 </main>    
                 
-                <div class="cd-folding-panel">
+                
+
+            </section>
+            <div class="cd-folding-panel">
         
                     <div class="fold-left"></div> <!-- this is the left fold -->
 
@@ -483,11 +385,9 @@ $path = "assets/lily"
 
                     <a class="cd-close" href="#0"></a>
                 </div> <!-- .cd-folding-panel -->
-
-            </section>
             <!-- / menu -->
 
-            <section id="contact" class="pages">
+            <section id="contact" class="pages layer_z">
                 
                 <div class="container-fluid-flat overlay-boxes">
 
@@ -561,7 +461,7 @@ $path = "assets/lily"
                 </div>
                 <!--/ container -->
                     
-                <div class="map-container">
+                <div id="googleMap" class="map-container">
                     <a class="_mapLink" href="{{ $data['mapLink'] }}" target="_blank">
                         <div class="__mapImage __backgroundImage" style="background-image:url({{ $data['mapStaticURL'] }})">
                         </div>
@@ -661,10 +561,10 @@ $path = "assets/lily"
                                                 <!-- Begin Textarea element -->
                                                 <div class="quform-lines__element quform-element clearfix quform-element-textarea quform-huge col-md-12">
 
-                                                    <label for="message">Message <span class="quform-required">*</span>
+                                                    <label for="message">Message</span>
                                                     </label>
                                                     <div class="quform-input">
-                                                        <textarea id="message" name="message" style="height: 130px;" placeholder="Eg. Hello I Am Vegetarian , And my Friends are Zombies..."></textarea>
+                                                        <textarea id="message" name="message" style="height: 130px;" placeholder="Let us know about any allergies or special requests. Or just say hi!"></textarea>
                                                     </div>
 
                                                 </div>
@@ -802,7 +702,7 @@ $path = "assets/lily"
 
                             <div class="col-md-8">
                                 <div class="text-uppercase">
-                                    © 2016 - Present {{ $data['name'] }}, {{ $data['address'] }} , site by <a href="http://www.rockyeastman.com" target="_blank">Rocky Eastman</a>
+                                    © 2016 - Present {{ $data['name'] }}, {{ $data['address'] }}</a>
                                 </div>
                             </div>
                             <div class="col-md-4 text-right">

@@ -293,7 +293,6 @@ button {
     right: -84px;
     top: 0;
     display: block;
-    background-color: #fff;
   }
   .container-fluid.container-normal {
     padding-left: 15px;
@@ -6289,7 +6288,7 @@ folding panel
 -------------------------------- */
 .cd-folding-panel {
   position: fixed;
-  z-index: 3;
+  z-index: 500;
   top: 0;
   left: 0;
   height: 100vh;
@@ -6413,6 +6412,7 @@ folding panel
 }
 
 .cd-folding-panel.is-open {
+  position: fixed;
   visibility: visible;
   -webkit-transition: visibility 0s 0.05s;
   -moz-transition: visibility 0s 0.05s;

@@ -1340,12 +1340,14 @@ function overLayMenu() {
 function foldPanel(){
 var gallery = $('.cd-gallery'),
 		foldingPanel = $('.cd-folding-panel'),
-		mainContent = $('.cd-main');
+		mainContent = $('.cd-main'),
+        menu = $('#menu');
 	/* open folding content */
 	gallery.on('click', 'a', function(event){
 		event.preventDefault();
 		openItemInfo($(this).attr('href'));
         $('.nav-wrap').addClass('nav-animate');
+        return false;
 	});
 
 	/* close folding content */
@@ -1361,23 +1363,7 @@ var gallery = $('.cd-gallery'),
 
 	function openItemInfo(url) {
 		var mq = viewportSize();
-		if( gallery.offset().top > $(window).scrollTop() && mq != 'mobile') {
-			/* if content is visible above the .cd-gallery - scroll before opening the folding panel */
-			$('body,html').animate({
-				'scrollTop': gallery.offset().top
-			}, 100, function(){ 
-	           	toggleContent(url, true);
-	        }); 
-	    } else if( gallery.offset().top + gallery.height() < $(window).scrollTop() + $(window).height()  && mq != 'mobile' ) {
-			/* if content is visible below the .cd-gallery - scroll before opening the folding panel */
-			$('body,html').animate({
-				'scrollTop': gallery.offset().top + gallery.height() - $(window).height()
-			}, 100, function(){ 
-	           	toggleContent(url, true);
-	        });
-		} else {
-			toggleContent(url, true);
-		}
+        toggleContent(url, true);
 	}
 
 	function toggleContent(url, bool) {
