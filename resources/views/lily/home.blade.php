@@ -743,7 +743,6 @@ $path = "assets/lily"
     <script src="/{{ $path }}/js/jquery.bxslider.min.js"></script>
 
     <script src="/{{ $path }}/js/jquery.magnific-popup.min.js"></script>
-    <script src="/{{ $path }}/js/gridrotator.js"></script>
 
     <script src="/{{ $path }}/js/velocity.min.js"></script>
     <script src="/{{ $path }}/js/jquery.animsition.js"></script>

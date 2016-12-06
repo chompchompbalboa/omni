@@ -15,7 +15,7 @@ class PreviewController extends Controller
 {
     /**
      * Constructor
-     *
+     * 
      * @param  Previews  $previews
      * @param  SiteLoader  $siteLoader
      */

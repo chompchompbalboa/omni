@@ -77,4 +77,26 @@ class SiteLoader
         // Return
         return view('lily.home', ["data" => $data]);
     }
+
+    /**
+     * Wedesign
+     *
+     * @param  $site
+     * @return string
+     */
+    public function wedesign($site)
+    {
+        // Defaults
+        $default = [
+        ];
+
+        // Data
+        $data = [];
+        foreach($default as $property => $value) {
+            $data[$property] = (isset($site->$property) ? $site->$property : $default[$property]);
+        }
+
+        // Return
+        return view('wedesign.home', ["data" => $data]);
+    }
 }
