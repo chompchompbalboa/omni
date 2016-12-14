@@ -21,7 +21,7 @@
 
                 <!-- Header -->
                     <header id="header">
-                        <a href="index.html" class="logo">Formula <span>by Pixelarity</span></a>
+                        <a href="" class="logo">Formula</span></a>
                         <nav>
                             <ul>
                                 <li><a href="#menu">Menu</a></li>
@@ -32,9 +32,9 @@
                 <!-- Menu -->
                     <nav id="menu">
                         <ul class="links">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="generic.html">Generic</a></li>
-                            <li><a href="elements.html">Elements</a></li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Generic</a></li>
+                            <li><a href="#">Elements</a></li>
                         </ul>
                         <ul class="actions vertical">
                             <li><a href="#" class="button special fit">Sign Up</a></li>
