@@ -8,8 +8,7 @@ use App\Http\Controllers\Controller;
 use App\User;
 use App\Previews;
 
-// Helpers
-use App\Helpers\SiteLoader;
+use App\Services\SiteLoader;
 
 class PreviewController extends Controller
 {

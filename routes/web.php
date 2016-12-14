@@ -27,3 +27,4 @@ $rockyeastman = function() {
 };
 Route::group(['domain' => 'rockyeastman.com'], $rockyeastman);
 Route::group(['domain' => 'rockyeastman.local'], $rockyeastman);
+
