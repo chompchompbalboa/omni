@@ -128,12 +128,12 @@
 		}
 
 		@include breakpoint(medium) {
-			@include vendor('background-image', 'url("../../images/banner_md.jpg")');
+			@include vendor('background-image', 'url("/assets/reastman/images/banner_md.jpg")');
 		}
 
 		@include breakpoint(small) {
 			@include padding(10em, 0, (2em, 0, 0, 0));
-			@include vendor('background-image', 'url("../../images/banner_sm.jpg")');
+			@include vendor('background-image', 'url("/assets/reastman/images/banner_sm.jpg")');
 			height: auto;
 			margin-bottom: -2.75em;
 			max-height: none;

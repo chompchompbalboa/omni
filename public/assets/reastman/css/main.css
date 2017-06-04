@@ -2609,11 +2609,11 @@ button,
       background-attachment: scroll; } }
   @media screen and (max-width: 1025px) {
     #banner {
-      background-image: url("../../images/banner_md.jpg"); } }
+      background-image: url("/assets/reastman/images/banner_md.jpg"); } }
   @media screen and (max-width: 736px) {
     #banner {
       padding: 12em 0 8em 0 ;
-      background-image: url("../../images/banner_sm.jpg");
+      background-image: url("/assets/reastman/images/banner_sm.jpg");
       height: auto;
       margin-bottom: -2.75em;
       max-height: none;
