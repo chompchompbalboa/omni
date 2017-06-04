@@ -29,19 +29,19 @@ Route::group(['domain' => 'nwaireservices.local'], $nwaireservices);
 /*
 * Rocky Eastman
 *
-* rockyeastman.com
+* reastman.com
 */
-$rockyeastman = function() {
+$reastman = function() {
 
     Route::get('/', function() {
-        return view('rockyeastman.welcome')->with('path', 'rockyeastman');
+        return view('reastman.welcome')->with('path', 'reastman');
     });
 
     Route::get('/preview/{previewID}', 'PreviewController@loadPreview');
     
 };
-Route::group(['domain' => 'rockyeastman.com'], $rockyeastman);
-Route::group(['domain' => 'rockyeastman.local'], $rockyeastman);
+Route::group(['domain' => 'reastman.com'], $reastman);
+Route::group(['domain' => 'rockyeastman.local'], $reastman);
 
 /*
 * Rocky Eastman Staging
