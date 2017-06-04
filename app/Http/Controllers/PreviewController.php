@@ -13,19 +13,6 @@ use App\Services\SiteLoader;
 class PreviewController extends Controller
 {
     /**
-     * Constructor
-     * 
-     * @param  Previews  $previews
-     * @param  SiteLoader  $siteLoader
-     */
-    public function __construct(Previews $previews, SiteLoader $siteLoader)
-    {
-        $this->previews = $previews;
-        $this->siteLoader = $siteLoader;
-    }
-
-
-    /**
      * Load a preview website
      *
      * @param  int  $previewID
@@ -33,8 +20,7 @@ class PreviewController extends Controller
      */
     public function loadPreview($previewID)
     {
-        $preview = $this->previews->where('previewID', '=', $previewID)->firstOrFail();
-        $site = $this->siteLoader->{$preview->theme}($preview);
-        return $site;
+        $viewName = $previewID.".preview";
+        return view($viewName);
     }
 }

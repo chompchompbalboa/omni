@@ -12,19 +12,19 @@
 */
 
 /*
-* Krys Karns
+* Northwest Aire Services
 *
-* kryskarnslifecoach.com
+* nwaireservices.com
 */
-$kryskarns = function() {
+$nwaireservices = function() {
 
     Route::get('/', function() {
-        return view('kryskarns.welcome');
+        return view('nwaireservices.welcome')->with('path', 'nwaireservices');
     });
     
 };
-Route::group(['domain' => 'kryskarnslifecoach.com'], $kryskarns);
-Route::group(['domain' => 'kryskarns.local'], $kryskarns);
+Route::group(['domain' => 'nwaireserviceslifecoach.com'], $nwaireservices);
+Route::group(['domain' => 'nwaireservices.local'], $nwaireservices);
 
 /*
 * Rocky Eastman
@@ -34,7 +34,7 @@ Route::group(['domain' => 'kryskarns.local'], $kryskarns);
 $rockyeastman = function() {
 
     Route::get('/', function() {
-        return view('rockyeastman.welcome');
+        return view('rockyeastman.welcome')->with('path', 'rockyeastman');
     });
 
     Route::get('/preview/{previewID}', 'PreviewController@loadPreview');
@@ -42,8 +42,6 @@ $rockyeastman = function() {
 };
 Route::group(['domain' => 'rockyeastman.com'], $rockyeastman);
 Route::group(['domain' => 'rockyeastman.local'], $rockyeastman);
-
-
 
 /*
 * Rocky Eastman Staging
@@ -53,9 +51,9 @@ Route::group(['domain' => 'rockyeastman.local'], $rockyeastman);
 $rockyeastmanstaging = function() {
 
     Route::get('/', function() {
-        return view('kryskarns.welcome');
+        return view('nwaireservices.welcome');
     });
     
 };
-Route::group(['domain' => 'rockyeastmanstaging.com'], $kryskarns);
+Route::group(['domain' => 'rockyeastmanstaging.com'], $nwaireservices);
 
