@@ -1,6 +1,0 @@
-// Provide an extra margin to the landing text to make sure my face can be seen on mobile
-@include breakpoint(xsmall) {
-    .landing {
-        margin-top: 25vh !important;
-    }
-}

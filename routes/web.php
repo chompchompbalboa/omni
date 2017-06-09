@@ -34,7 +34,7 @@ Route::group(['domain' => 'nwaireservices.local'], $nwaireservices);
 $reastman = function() {
 
     Route::get('/', function() {
-        return view('reastman.welcome')->with('path', 'reastman');
+        return view('reastman.home')->with('path', 'reastman');
     });
 
     Route::get('/preview/{previewID}', 'PreviewController@loadPreview');

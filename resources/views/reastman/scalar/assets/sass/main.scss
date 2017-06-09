@@ -1482,14 +1482,13 @@
 /* Banner */
 
 	#banner {
-		@include padding(5em, 0);
+		@include padding(9em, 0);
 		background-color: _palette(accent3, bg);
-		background-image: url('/assets/reastman/images/banner_sm.jpg');
+		background-image: url('../../images/banner.jpg');
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		color: _palette(accent3, fg);
-		min-height: 70vh;
 
 		h1, h2, h3, h4, h5, h6, strong, b {
 			color: _palette(accent3, fg-bold);
@@ -2115,7 +2114,7 @@
 		/* Banner */
 
 			#banner {
-				@include padding(1.5em, 0);
+				@include padding(5em, 0);
 			}
 
 	}
