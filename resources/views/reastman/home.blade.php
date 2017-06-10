@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Untitled</title>
+		<title>Rocky Eastman</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="/assets/{{ $path }}/js/ie/html5shiv.js"></script><![endif]-->
@@ -48,7 +48,7 @@
 								<h2>Let's face it.</h2>
 								<p>
 									Your customers want to see a great website, but you've got more important things to focus on.</br></br>
-									Wouldn't it be great if there was someone to took care of it for you?
+									Wouldn't it be great if there was someone to take care of it for you?
 								</p>
 								<ul class="actions">
 									<li><a href="#" class="button">Let me be that someone</a></li>
@@ -58,11 +58,11 @@
 								<section>
 									<h3>It doesn't get easier than this</h3>
 									<p>
-										First, I build you a beautiful website. Then any time you want something changed, all you do is send me an email. I make changes the very same day.</p>
+										First, I build you a beautiful website. Then any time you want something changed, all you have to do is send me an email. I make changes the very same day.</p>
 								</section>
 								<section>
 									<h3>I build to your budget</h3>
-									<p>Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc lorem ipsum dolor sit amet vivamus laoreet feugiat.</p>
+									<p>A great online presence doesn't have to cost a fortune. You tell me what your budget is, I build your website for that amount or less.</p>
 								</section>
 							</div>
 						</div>
@@ -77,8 +77,8 @@
 								</div>
 								<div class="7u$ 12u$(medium)">
 									<header>
-										<h2>Fusce lobortis lorem at<br />
-										ipsum semper magna</h2>
+										<h2>Clean, focused design that<br />
+										looks great on every device</h2>
 										<p>Praesent placerat risus qui</p>
 									</header>
 									<p>Citae facilisis libero dolor a purus. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante lorem ipsum dolor sit amet consequat. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit orci lorem ipsum dolor sit amet veroeros tempus. Nunc tellus ante lorem ipsum dolor sit amet consequat.</p>
@@ -94,7 +94,7 @@
 					<section id="three" class="wrapper style3 special">
 						<div class="container">
 							<header>
-								<h2>Aliquam porta</h2>
+								<h2>The process</h2>
 								<p>Pellentesque fermentum dolor aliquam quam lectus facilisis dolore</p>
 							</header>
 							<div class="row 200%">
@@ -123,95 +123,29 @@
 						</div>
 					</section>
 
-				<!-- Four -->
-					<section id="four" class="wrapper style4 special">
+				<!-- Form -->
+					<section id="four" class="wrapper style">
 						<div class="container">
-							<h2>Morbi interdum mollis sed<br />
-							Phasellus lacinia</h2>
-							<div class="row 200%">
-								<div class="4u 12u$(medium)">
-									<blockquote class="testimonial">
-										<p>Sed et liquam porttitor mauris sit orcintio enean magna amet consequat lorem ipsum dolor sit amet!</p>
-										<cite>
-											<span class="image style2"><img src="/assets/{{ $path }}/images/avatar.png" alt="" /></span>
-											<span class="name">Jane Doe</span>
-											<span class="title">CEO</span>
-										</cite>
-									</blockquote>
-								</div>
-								<div class="4u 12u$(medium)">
-									<blockquote class="testimonial">
-										<p>Sed et liquam porttitor mauris sit orcintio enean magna amet consequat lorem ipsum dolor sit amet!</p>
-										<cite>
-											<span class="image style2"><img src="/assets/{{ $path }}/images/avatar.png" alt="" /></span>
-											<span class="name">Jane Doe</span>
-											<span class="title">CEO</span>
-										</cite>
-									</blockquote>
-								</div>
-								<div class="4u 12u$(medium)">
-									<blockquote class="testimonial">
-										<p>Sed et liquam porttitor mauris sit orcintio enean magna amet consequat lorem ipsum dolor sit amet!</p>
-										<cite>
-											<span class="image style2"><img src="/assets/{{ $path }}/images/avatar.png" alt="" /></span>
-											<span class="name">Jane Doe</span>
-											<span class="title">CEO</span>
-										</cite>
-									</blockquote>
-								</div>
-							</div>
-						</div>
-					</section>
-
-				<!-- Five -->
-					<section id="five" class="wrapper style3 special">
-						<div class="container">
-							<div class="box alt">
-								<div class="row uniform 200%">
-									<div class="4u 6u(large) 12u$(medium)">
-										<section class="feature">
-											<span class="icon major fa-cog"></span>
-											<h3>Lorem et ipsum</h3>
-											<p>Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu etiam magna risus vitae lorem ipsum dolor etiam.</p>
-										</section>
+							<h2>Ready to get started?</h2>
+							<form method="post" action="#">
+								<div class="row uniform 50%">
+									<div class="6u 12u$(xsmall)">
+										<input type="text" name="name" id="name" value="" placeholder="Name" />
 									</div>
-									<div class="4u 6u$(large) 12u$(medium)">
-										<section class="feature">
-											<span class="icon major fa-desktop"></span>
-											<h3>Fusce pellentes</h3>
-											<p>Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu etiam magna risus vitae lorem ipsum dolor etiam.</p>
-										</section>
+									<div class="6u$ 12u$(xsmall)">
+										<input type="email" name="email" id="email" value="" placeholder="Email" />
 									</div>
-									<div class="4u$ 6u(large) 12u$(medium)">
-										<section class="feature">
-											<span class="icon major fa-briefcase"></span>
-											<h3>Vestibulum commod</h3>
-											<p>Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu etiam magna risus vitae lorem ipsum dolor etiam.</p>
-										</section>
+									<div class="12u$">
+										<textarea name="message" id="message" placeholder="Tell me a little about what you're looking for" rows="6"></textarea>
 									</div>
-									<div class="4u 6u$(large) 12u$(medium)">
-										<section class="feature">
-											<span class="icon major fa-paper-plane"></span>
-											<h3>Nulla adipiscing</h3>
-											<p>Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu etiam magna risus vitae lorem ipsum dolor etiam.</p>
-										</section>
-									</div>
-									<div class="4u 6u(large) 12u$(medium)">
-										<section class="feature">
-											<span class="icon major fa-bar-chart"></span>
-											<h3>Ut aliquam sollicitu</h3>
-											<p>Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu etiam magna risus vitae lorem ipsum dolor etiam.</p>
-										</section>
-									</div>
-									<div class="4u$ 6u$(large) 12u$(medium)">
-										<section class="feature">
-											<span class="icon major fa-tag"></span>
-											<h3>Cras iaculis ultri</h3>
-											<p>Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu etiam magna risus vitae lorem ipsum dolor etiam.</p>
-										</section>
+									<div class="12u$">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="special" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
 									</div>
 								</div>
-							</div>
+							</form>
 						</div>
 					</section>
 
@@ -222,7 +156,7 @@
 							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
-						<p class="copyright">&copy; Untitled. All rights reserved.</p>
+						<p class="copyright">&copy; Rocky Eastman. All rights reserved.</p>
 					</footer>
 
 			</div>
