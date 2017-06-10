@@ -35,7 +35,7 @@
 		@include breakpoint(large) {
 			.content {
 				@include vendor('flex-shrink', '0');
-				width: 33%;
+				width: 95%;
 			}
 
 			.image {

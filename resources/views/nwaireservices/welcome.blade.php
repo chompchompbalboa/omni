@@ -16,7 +16,7 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<span class="logo"><a href="index.html">Northwest Aire Services</a></span>
+						<span class="logo">Northwest Aire Services</span>
 						<a href="#menu">Menu</a>
 					</header>
 
@@ -25,7 +25,9 @@
 						<div class="inner">
 							<h2>Menu</h2>
 							<ul class="links">
-								<li><a href="index.html">Home</a></li>
+								<li><a href="#one">Capabilities</a></li>
+								<li><a href="#three">About Us</a></li>
+								<li><a href="#footer">Contact</a></li>
 							</ul>
 							<a class="close">Close</a>
 						</div>
@@ -34,8 +36,9 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<p>Insert some text here</p>
-							<h1>Quality HVAC Services</h1>
+							<p>Pacific Northwest Proud</p>
+							<h1>Commercial HVAC/R Services Since 2004</h1>
+							<h2 class="subheader">Serving Seattle, Tacoma, Bellevue and the surrounding areas</h6>
 							<ul class="actions">
 								<li><a href="#one" class="button big special scrolly">Learn More</a></li>
 							</ul>
@@ -48,124 +51,50 @@
 							<section class="spotlights">
 								<article>
 									<header class="major">
-										<p>Service 1</p>
-										<h2>Dolor sit amet vivamus</h2>
+										<p>Our capabilities</p>
+										<h2>Heating, Cooling, & Ventilation Service</h2>
 									</header>
-									<p>Phasellus in ante vitae nibh porttitor tempus vitae ut ante. Vestibulum blandit ex a elementum viverra. Sed quat diam, aliquet tempus felis nisl at lacus.</p>
-									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
-									</ul>
+									<p>As the foundation of NWAS, our service department is equipped to respond 24 hours a day to a wide range of situations.  Our technicians are trained to repair HVAC equipment from all major brands.</p>
 								</article>
 								<article>
 									<header class="major">
-										<p>Service 2</p>
-										<h2>Ipsum dolor sit amet</h2>
+										<p>Our capabilities</p>
+										<h2>Commercial Refrigeration</h2>
 									</header>
-									<p>Phasellus in ante vitae nibh porttitor tempus vitae ut ante. Vestibulum blandit ex a elementum viverra. Sed quat diam, aliquet tempus felis nisl at lacus.</p>
-									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
-									</ul>
+									<p>From restaurants to retail, walk-ins to reach-ins, our skilled technicians are dedicated to repairing and maintaining all major brands of commercial refrigeration equipment.</p>
+								</article>
+								<article>
+									<header class="major">
+										<p>Our capabilities</p>
+										<h2>Preventative Maintenance</h2>
+									</header>
+									<p>NWAS believes that routine preventative maintenance is essential to extending equipment lifespan, improving system reliability, and ensuring energy efficient operation.  Our preventative maintenance programs are custom tailored to the unique needs of each customer.  </p>
+								</article>
+								<article>
+									<header class="major">
+										<p>Our capabilities</p>
+										<h2>Construction</h2>
+									</header>
+									<p>NWAS is fully equipped to facilitate any light-commercial HVAC project, from new construction to tenant improvement.  Whether replacing existing equipment or designing and installing a complete comfort system, our team has the knowledge and experience necessary to meet your needs.</p>
 								</article>
 							</section>
-						</div>
-					</section>
-
-				<!-- Two -->
-					<section id="two" class="wrapper style1 special">
-						<div class="inner">
-							<ul class="features">
-								<li>
-									<span><img class="icon major" src="/assets/{{ $path }}/images/pic01.jpg" alt=""></span>
-									<h4>Placerat</h4>
-									<p>Lorem ipsum dolor sit amet nullam et consequat.</p>
-								</li>
-								<li>
-									<span><img class="icon major" src="/assets/{{ $path }}/images/pic01.jpg" alt=""></span>
-									<h4>Libero</h4>
-									<p>Lorem ipsum dolor sit amet nullam et consequat.</p>
-								</li>
-								<li>
-									<span><img class="icon major" src="/assets/{{ $path }}/images/pic01.jpg" alt=""></span>
-									<h4>Solicitu</h4>
-									<p>Lorem ipsum dolor sit amet nullam et consequat.</p>
-								</li>
-								<li>
-									<span><img class="icon major" src="/assets/{{ $path }}/images/pic01.jpg" alt=""></span>
-									<h4>Tempor</h4>
-									<p>Lorem ipsum dolor sit amet nullam et consequat.</p>
-								</li>
-							</ul>
 						</div>
 					</section>
 
 				<!-- Three -->
 					<section id="three" class="wrapper">
 						<div class="inner">
-							<header class="major alt">
-								<p>Consequat</p>
-								<h2>Fusce lobortis lorem semper sagittis</h2>
+							<header class="major">
+								<p>About Us</p>
+								<h2>Family Owned and Operated</h2>
 							</header>
 							<section class="posts">
 								<article>
-									<span class="image"><img src="/assets/{{ $path }}/images/pic01.jpg" alt=""></span>
 									<div class="content">
-										<p>Phasellus in ante vitae nibh porttitor tempus vitae ante. Lorem blandit dolor elementum dolor. Sed quat diam, aliquet tempus felis. Phasellus et magna vitae sed porttitor tempus vitae ut ante lorem blandit.</p>
-										<ul class="actions">
-											<li><a href="#" class="button">More</a></li>
-										</ul>
+										<p>Founded in 2004, Northwest Aire Services, Inc. prides itself on providing superior HVAC/R expertise to the Pacific Northwest.  Our goal is to ensure the continued satisfaction of our customers, while providing the most rewarding environment for our employees.  It is our hope to build lifelong relationships with our customers; relationships that will lead to an enduring and mutual satisfaction.</p>
+										<p class="content_last">Northwest Aire Services, Inc. is a full service commercial contractor equipped to competitively bid any job; from retro-fit to new construction, small light-commercial buildings to large multi-million dollar projects.  We offer a wide variety of commercial services, including but not limited to: air conditioning, heating, refrigeration, controls, service, maintenance, and installation.  From the most complex installations to routine service and maintenance, Northwest Aire Services, Inc. has the resources and motivation to provide an industry-leading solution. </p>
 									</div>
 								</article>
-							</section>
-						</div>
-					</section>
-
-				<!-- Four -->
-					<section id="four" class="wrapper style2 alt">
-						<div class="inner">
-							<header class="major">
-								<p>Malesuada</p>
-								<h2>Aliquam tincidunt mauris eu risus</h2>
-							</header>
-							<section class="timeline">
-								<section>
-									<header>
-										<p>09.04.16</p>
-										<h4>Magna etiam sed lorem ipsum dolor amet</h4>
-									</header>
-									<span class="image"><img src="/assets/{{ $path }}/images/pic02.jpg" alt=""></span>
-									<div class="content">
-										<p>Phasellus in ante vitae nibh porttitor tempus vitae ut ante. Vestibulum blandit dolor elementum viverra. Sed quat a diam, aliquet tempus felis. Phasellus et magna vitae nibh porttitor tempus vitae.</p>
-										<ul class="actions">
-											<li><a href="#" class="button">More</a></li>
-										</ul>
-									</div>
-								</section>
-								<section>
-									<header>
-										<p>08.28.16</p>
-										<h4>Sed feugiat et mauris adipiscing dolor</h4>
-									</header>
-									<span class="image"><img src="/assets/{{ $path }}/images/pic03.jpg" alt=""></span>
-									<div class="content">
-										<p>Phasellus in ante vitae nibh porttitor tempus vitae ut ante. Vestibulum blandit dolor elementum viverra. Sed quat a diam, aliquet tempus felis. Phasellus et magna vitae nibh porttitor tempus vitae.</p>
-										<ul class="actions">
-											<li><a href="#" class="button">More</a></li>
-										</ul>
-									</div>
-								</section>
-								<section>
-									<header>
-										<p>08.22.16</p>
-										<h4>Tellus magna dolore sed elementum</h4>
-									</header>
-									<span class="image"><img src="/assets/{{ $path }}/images/pic04.jpg" alt=""></span>
-									<div class="content">
-										<p>Phasellus in ante vitae nibh porttitor tempus vitae ut ante. Vestibulum blandit dolor elementum viverra. Sed quat a diam, aliquet tempus felis. Phasellus et magna vitae nibh porttitor tempus vitae.</p>
-										<ul class="actions">
-											<li><a href="#" class="button">More</a></li>
-										</ul>
-									</div>
-								</section>
 							</section>
 						</div>
 					</section>
@@ -176,15 +105,20 @@
 							<ul class="contact">
 								<li class="icon fa-home">
 									<strong>Address</strong>
-									1234 Fictional Avenue<br>Nashville, TN 00000
+									PO Box 66070<br>Seattle, WA 98166
 								</li>
 								<li class="icon fa-phone">
 									<strong>Phone</strong>
-									(000) 000-0000
+									(206) 241-2657<br>
+									Fax: (206) 241-2931
 								</li>
 								<li class="icon fa-envelope">
 									<strong>Email</strong>
-									information@untitled.tld
+									info@nwaireservices.com
+								</li>
+								<li class="icon fa-phone">
+									<strong>Contractor License</strong>
+									NORTHAS963K4
 								</li>
 							</ul>
 							<form action="#" method="post">
@@ -207,7 +141,7 @@
 							</form>
 						</div>
 						<div class="copyright">
-							&copy; . All rights reserved.
+							&copy; Northwest Aire Services. All rights reserved.
 						</div>
 					</footer>
 

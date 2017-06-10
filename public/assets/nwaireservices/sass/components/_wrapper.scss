@@ -60,12 +60,14 @@
 			@include wrapper-edges-color(_palette(accent2, bg));
 		}
 
+
 		@include breakpoint(large) {
 			@include padding(5em, 0);
 
 			&:before, &:after {
 				height: 4em;
 			}
+
 		}
 
 		@include breakpoint(medium) {

@@ -160,6 +160,12 @@
 		text-align: right;
 	}
 
+	.subheader {
+		font-size: 1.5em;
+		color: #d6d7d8;
+		margin-bottom: 2em;
+	}
+
 	@include breakpoint(small) {
 		h1 {
 			font-size: 1.75em;
@@ -170,6 +176,10 @@
 		}
 
 		h3 {
+			font-size: 1.25em;
+		}
+
+		.subheader {
 			font-size: 1.25em;
 		}
 	}
