@@ -82,7 +82,7 @@ body {
 
   .container {
     width: 1200px; } }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .container.\31 25\25 {
     width: 100%;
     max-width: 1200px;
@@ -116,7 +116,7 @@ body {
 
   .container {
     width: 90%; } }
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   .container.\31 25\25 {
     width: 100%;
     max-width: 112.5%;
@@ -521,7 +521,7 @@ body {
 
   .\-1u\28xlarge\29 {
     margin-left: 8.33333%; } }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .row > * {
     padding: 0 0 0 1.5em; }
 
@@ -855,7 +855,7 @@ body {
 
   .\-1u\28medium\29 {
     margin-left: 8.33333%; } }
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   .row > * {
     padding: 0 0 0 1.5em; }
 
@@ -2230,7 +2230,7 @@ input[type="button"],
 #banner {
   padding: 5em 0 3em 0 ;
   background-color: #423e3a;
-  background-image: url("/assets/reastman/images/banner_sm.jpg");
+  background-image: url("/assets/reastman/images/banner.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2261,7 +2261,7 @@ input[type="button"],
 
 /* Footer */
 #footer {
-  padding: 6em 0 4em 0 ;
+  padding: 0 0 0.1em 0 ;
   text-align: center; }
   #footer .icon:before {
     -moz-transition: color 0.2s ease-in-out;
@@ -2286,7 +2286,7 @@ input[type="button"],
   body, input, select, textarea {
     font-size: 11pt; } }
 /* Large */
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   /* Basic */
   body, input, select, textarea {
     font-size: 11pt; }
@@ -2384,7 +2384,8 @@ input[type="button"],
 
   /* Banner */
   #banner {
-    padding: 8em 0 6em 0 ; }
+    padding: 8em 0 6em 0 ;
+    background-image: url("/assets/reastman/images/banner_sm.jpg"); }
     #banner h2 {
       font-size: 2em; }
 
@@ -2543,7 +2544,7 @@ input[type="button"],
     -ms-transform: translateY(13em);
     transform: translateY(13em); } }
 /* Small */
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
   /* Basic */
   body, input, select, textarea {
     font-size: 12pt; }
@@ -2672,5 +2673,18 @@ input[type="button"],
   /* Banner */
   #banner {
     padding: 1.5em 0 0.1em 0 ; } }
+/* Overrides */
+#four {
+  padding: 0em 0 0.1em 0 ;
+  padding-bottom: 2em !important; }
+
+#five {
+  padding: 6em 0 0 0; }
+
+.intro {
+  margin-top: 5em; }
+  @media screen and (max-width: 1279px) {
+    .intro {
+      margin-top: 0; } }
 
 /*# sourceMappingURL=main.css.map */

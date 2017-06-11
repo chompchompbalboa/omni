@@ -33,7 +33,7 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="container">
-							<header>
+							<header class="intro">
 								<h2>Hi, I'm Rocky</h2>
 								<p>I build and manage your website<br />
 								so you don't have to</p>
@@ -84,7 +84,7 @@
 									<p>
 										These days, most people are accessing websites from multiple different devices. It's crucial that your site looks great on all of them. That's why every site I build is designed to deliver content perfect for any device.</br></br>
 										I also work with you to determine what you want your customers to do once they get to your website. Trying to direct people to your products? We'll make that the focus. Prefer that they reach out to you in-person? We'll make sure your contact information is front and center. </br></br>
-										Your website should have a well-designed purpose that helps grow your business. I make sure that happens.
+										Your website should have a well-defined purpose that helps grow your business. I make sure that happens.
 									</p>
 								</div>
 							</div>
@@ -120,16 +120,24 @@
 										<p>Once you've decided we're heading down the right path, we finalize the budget, deadlines, and deliverables and sign a contract to those terms.</p>
 									</section>
 								</div>
-								<div class="4u$ 12u$(small)">
-									<section class="tree last">
-										<span class="icon major fa-camera-retro"></span>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="four" class="wrapper style3 special">
+						<div class="container">
+							<div class="row 200%">
+								<div class="4u 12u$(small)">
+									<section class="tree first">
+										<span class="icon major fa-list"></span>
 										<h3>4. Let's build this thing</h3>
 										<p>Now comes the fun part. I get to work on the production version of your site. Similar to the design proposal, you will have constant access to a live preview and the ability to provide feedback throughout the process.</p>
 									</section>
 								</div>
-								<div class="4u$ 12u$(small)">
-									<section class="tree last">
-										<span class="icon major fa-camera-retro"></span>
+								<div class="4u 12u$(small)">
+									<section class="tree">
+										<span class="icon major fa-coffee"></span>
 										<h3>5. Time to go live!</h3>
 										<p>Once I've finished building your website and you've given the go ahead, we move everything over to your domain. We work out any hiccups that might come up and do final testing to make sure that you are completely satisfied with your new website.</p>
 									</section>
@@ -146,7 +154,7 @@
 					</section>
 
 				<!-- Form -->
-					<section id="four" class="wrapper style">
+					<section id="five" class="wrapper style">
 						<div class="container">
 							<header>
 								<h2>Ready to get started?</h2>
