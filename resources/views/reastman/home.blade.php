@@ -63,7 +63,7 @@
 								</section>
 								<section>
 									<h3>I build to your budget</h3>
-									<p>I don't want cost holding your business back from upgrading your online presence. So I let you set the budget. You name the price - I build your website for that amount or less.</p>
+									<p>I don't want cost holding your business back from upgrading your online presence. So I have you set the budget. You name the price - I build your website for that amount or less.</p>
 								</section>
 							</div>
 						</div>
