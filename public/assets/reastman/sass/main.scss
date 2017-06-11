@@ -318,6 +318,8 @@
 	select,
 	textarea {
 		@include vendor('appearance', 'none');
+		margin-top: 0.5em !important;
+		margin-bottom: 0.5em !important;
 		background: _palette(border-bg);
 		border: none;
 		border: solid 1px _palette(border);
@@ -1640,7 +1642,7 @@
 		/* Footer */
 
 			#footer {
-				@include padding(4em, 0);
+				@include padding(0em, 0);
 			}
 
 	}
