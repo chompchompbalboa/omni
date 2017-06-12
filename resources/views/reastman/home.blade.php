@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Scalar by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
--->
 <html>
 	<head>
 		<title>Rocky Eastman</title>
@@ -12,6 +7,7 @@
 		<!--[if lte IE 8]><script src="/assets/{{ $path }}/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="/assets/{{ $path }}/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="a/assets/{{ $path }}/css/ie8.css" /><![endif]-->
+        <link rel="icon" href="/assets/{{ $path }}/images/favicon.ico" type="image/x-icon" />
 	</head>
 	<body class="landing">
 
@@ -21,7 +17,7 @@
 					<h1><a href="index.html" class="icon fa-cube">Rocky Eastman</a></h1>
 					<nav id="nav">
 						<ul>
-							<li class="current"><a href="index.html">Log In</a></li>
+							<li class="current"><a href="/login">Log In</a></li>
 						</ul>
 					</nav>
 				</div>
