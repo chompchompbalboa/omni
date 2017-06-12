@@ -37,7 +37,7 @@ $reastman = function() {
         return view('reastman.home')->with('path', 'reastman');
     });
 
-    Route::get('/login', function() {
+    Route::any('/login', function() {
         return view('reastman.login')->with('path', 'reastman');
     });
 

@@ -18,7 +18,7 @@
                         <header>
                             <h2>Login</h2>
                         </header>
-                        <form method="post" action="#">
+                        <form method="post" action="/login">
                             <div class="row uniform 50%">
                                 <div class="6u 12u$(xsmall)">
                                     <input type="text" name="name" id="name" value="" placeholder="Email Address" />
@@ -26,9 +26,10 @@
                                 <div class="6u$ 12u$(xsmall)">
                                     <input type="password" name="password" id="password" value="" placeholder="Password" />
                                 </div>
+                                {{ csrf_field() }}
                                 <div class="12u$">
                                     <ul class="actions">
-                                        <li><input type="submit" value="Submit" class="special" /></li>
+                                        <li><input type="submit" value="Submit" class="special"/></li>
                                     </ul>
                                 </div>
                             </div>
