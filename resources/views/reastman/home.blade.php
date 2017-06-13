@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="/assets/{{ $path }}/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="a/assets/{{ $path }}/css/ie8.css" /><![endif]-->
         <link rel="icon" href="/assets/{{ $path }}/images/favicon.ico" type="image/x-icon" />
+        <meta name="google-site-verification" content="65eer1zeSsCihJ8la4lWWduKiTewZmp69N9m9w0B3fg" />
 	</head>
 	<body class="landing">
 
