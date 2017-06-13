@@ -156,7 +156,7 @@
 								<h2>Ready to get started?</h2>
 							</header>
 								<p>Fill out the form below and I'll be in touch very soon. I'm looking forward to working with you!</p>
-							<form method="post" action="#">
+							<form id="formspree" method="post">
 								<div class="row uniform 50%">
 									<div class="6u 12u$(xsmall)">
 										<input type="text" name="name" id="name" value="" placeholder="Your name" />
@@ -169,7 +169,7 @@
 									</div>
 									<div class="12u$">
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="special" /></li>
+											<li><input id="formspree_submit" type="submit" value="Send Message" class="special" /></li>
 										</ul>
 									</div>
 								</div>
@@ -191,6 +191,7 @@
 			<script src="/assets/{{ $path }}/js/util.js"></script>
 			<!--[if lte IE 8]><script src="/assets/{{ $path }}/js/ie/respond.min.js"></script><![endif]-->
 			<script src="/assets/{{ $path }}/js/main.js"></script>
+			<script src="/assets/{{ $path }}/js/formspree.js"></script>
 
 	</body>
 </html>

@@ -12,7 +12,7 @@
     <body class="landing">
 
         <!-- Page Wrapper -->
-            <div class="login_container"> 
+            <div class="login_container">
                 <section>
                     <div class="container">
                         <header>
