@@ -4,6 +4,7 @@
 @import 'libs/skel';
 @import 'font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 /*
 	Atmosphere by Pixelarity
@@ -85,3 +86,8 @@
 	@import 'layout/banner';
 	@import 'layout/main';
 	@import 'layout/footer';
+
+// Personalization
+
+	@import 'components/logo';
+	@import 'components/hide';

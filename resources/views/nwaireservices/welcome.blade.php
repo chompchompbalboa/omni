@@ -16,27 +16,14 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<span class="logo">Northwest Aire Services</span>
-						<a href="#menu">Menu</a>
+						<img class="logo logo_png" src="/assets/{{ $path }}/images/logo.png" />
+						<a href="tel:(206)241-2657">24 Hour Service<br />(206) 241-2657</a>
 					</header>
-
-				<!-- Nav -->
-					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="#one">Capabilities</a></li>
-								<li><a href="#three">About Us</a></li>
-								<li><a href="#footer">Contact</a></li>
-							</ul>
-							<a class="close">Close</a>
-						</div>
-					</nav>
 
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<p>Pacific Northwest Proud</p>
+							<p class="hide_sm">Pacific Northwest Proud</p>
 							<h1>Commercial HVAC/R Services Since 2004</h1>
 							<h2 class="subheader">Serving Seattle, Tacoma, Bellevue and the surrounding areas</h6>
 							<ul class="actions">
@@ -109,7 +96,7 @@
 								</li>
 								<li class="icon fa-phone">
 									<strong>Phone</strong>
-									(206) 241-2657<br>
+									Main: (206) 241-2657<br>
 									Fax: (206) 241-2931
 								</li>
 								<li class="icon fa-envelope">

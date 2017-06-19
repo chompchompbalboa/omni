@@ -42,11 +42,11 @@ $reastman = function() {
     });
 
     Route::get('/starting-points', function() {
-        return view('reastman.starting-points.starting-points')->with('path', 'reastman');
+        return view('reastman.starting-points')->with('path', 'reastman');
     });
 
     Route::get('/starting-points/{name}', function() {
-        return view('reastman.starting-points')->with('path', 'reastman');
+        return view('reastman.starting-points.load')->with('path', 'reastman');
     });
 
     Route::get('/preview/{previewID}', 'PreviewController@loadPreview');

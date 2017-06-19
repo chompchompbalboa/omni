@@ -1,0 +1,37 @@
+/*
+    Atmosphere by Pixelarity
+    pixelarity.com | hello@pixelarity.com
+    License: pixelarity.com/license
+*/
+
+/* Wrapper */
+
+    .hide {
+
+        display: none;
+        
+    }
+
+    .hide_lg {
+
+        @include breakpoint(large) {
+            display: none;
+        }
+
+    }
+
+    .hide_md {
+
+        @include breakpoint(medium) {
+            display: none;
+        }
+        
+    }
+
+    .hide_sm {
+
+        @include breakpoint(small) {
+            display: none;
+        }
+        
+    }

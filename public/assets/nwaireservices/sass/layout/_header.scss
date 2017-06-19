@@ -9,7 +9,7 @@
 	#header {
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
-		@include vendor('justify-content', 'flex-end');
+		@include vendor('justify-content', 'space-between');
 		@include vendor('transition-duration', '#{_duration(transition)}');
 		@include vendor('transition-property', 'background-color padding');
 		@include vendor('transition-timing-function', 'ease-in-out');
@@ -22,12 +22,10 @@
 		top: 0;
 		width: 100%;
 		z-index: _misc(z-index-base) + 1;
+		font-family: 'Roboto', 'Helvetica', 'sans-serif';
+		text-align: right;
 
 		> .logo {
-			@include vendor('flex', '1');
-			display: block;
-			cursor: default;
-			white-space: nowrap;
 
 			a {
 				@include vendor('transition', 'color #{_duration(transition)} ease-in-out');
@@ -59,12 +57,6 @@
 				margin-left: 0.5em;
 				padding: 0.5em 1.25em;
 
-				&:before {
-					content: '\f0c9';
-					float: right;
-					margin-left: 0.5em;
-				}
-
 				&:hover {
 					background-color: _palette(accent1, border-bg);
 				}
@@ -77,11 +69,10 @@
 		}
 
 		@include breakpoint(small) {
-			@include vendor('align-items', 'flex-start');
+			@include vendor('align-items', 'center');
 			padding: 0 0 0 1em;
 
 			> .logo {
-				padding: 0.5em 0;
 
 				span {
 					display: none;
