@@ -60,7 +60,7 @@
 				$window.on('resize', function() { $window.trigger('scroll'); });
 
 				$banner.scrollex({
-					bottom:		$header.outerHeight() + $banner.height() + ($banner.height() / 2),
+					bottom:		$header.outerHeight() + $banner.height(),
 					terminate:	function() { $header.removeClass('alt'); },
 					enter:		function() { $header.addClass('alt'); },
 					leave:		function() { $header.removeClass('alt'); }
