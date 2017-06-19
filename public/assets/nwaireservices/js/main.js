@@ -45,6 +45,7 @@
 		// Scrolly.
 			$('.scrolly').scrolly({
 				offset: function() {
+					console.log($header.height());
 					return $header.height();
 				}
 			});
@@ -59,7 +60,7 @@
 				$window.on('resize', function() { $window.trigger('scroll'); });
 
 				$banner.scrollex({
-					bottom:		$header.outerHeight(),
+					bottom:		$header.outerHeight() + $banner.height() + ($banner.height() / 2),
 					terminate:	function() { $header.removeClass('alt'); },
 					enter:		function() { $header.addClass('alt'); },
 					leave:		function() { $header.removeClass('alt'); }
