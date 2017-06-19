@@ -21,6 +21,6 @@ class PreviewController extends Controller
     public function loadPreview($previewID)
     {
         $viewName = $previewID.".preview";
-        return view($viewName);
+        return view($viewName)->with('path', $previewID);
     }
 }

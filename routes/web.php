@@ -37,8 +37,16 @@ $reastman = function() {
         return view('reastman.home')->with('path', 'reastman');
     });
 
-    Route::any('/login', function() {
+    Route::get('/login', function() {
         return view('reastman.login')->with('path', 'reastman');
+    });
+
+    Route::get('/starting-points', function() {
+        return view('reastman.starting-points.starting-points')->with('path', 'reastman');
+    });
+
+    Route::get('/starting-points/{name}', function() {
+        return view('reastman.starting-points')->with('path', 'reastman');
     });
 
     Route::get('/preview/{previewID}', 'PreviewController@loadPreview');
