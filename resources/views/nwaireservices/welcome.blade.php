@@ -108,7 +108,7 @@
 									NORTHAS963K4
 								</li>
 							</ul>
-							<form action="#" method="post">
+							<form id="formspree" action="#" method="post">
 								<h4>Get in touch</h4>
 								<div class="field half first">
 									<label for="name">Name</label>
@@ -123,7 +123,7 @@
 									<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
 								</div>
 								<ul class="actions">
-									<li><input value="Send Message" class="button big" type="submit"></li>
+									<li><input id="formspree_submit" value="Send Message" class="button big" type="submit"></li>
 								</ul>
 							</form>
 						</div>
@@ -141,6 +141,7 @@
 			<script src="/assets/{{ $path }}/js/jquery.scrollex.min.js"></script>
 			<script src="/assets/{{ $path }}/js/jquery.scrolly.min.js"></script>
 			<!--[if lte IE 8]><script src="/assets/{{ $path }}/js/ie/respond.min.js"></script><![endif]-->
+			<script src="/assets/{{ $path }}/js/formspree.js"></script>
 			<script src="/assets/{{ $path }}/js/main.js"></script>
 
 	</body>
