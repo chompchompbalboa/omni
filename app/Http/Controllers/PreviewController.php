@@ -4,12 +4,6 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 
-// Models
-use App\User;
-use App\Previews;
-
-use App\Services\SiteLoader;
-
 class PreviewController extends Controller
 {
     /**
@@ -18,9 +12,17 @@ class PreviewController extends Controller
      * @param  int  $previewID
      * @return Response
      */
-    public function loadPreview($previewID)
+    public function loadPreview($id, $page = "home")
     {
-        $viewName = $previewID.".preview";
-        return view($viewName)->with('path', $previewID);
+        $assetsPath = "/assets/previews/".$id;
+        $urlPath = "/previews/".$id;
+        $viewPath = "previews.".$id;
+        $viewName = "previews.".$id.".".(isset($page) ? $page : "home");
+        return view($viewName, 
+            [
+                "assetsPath" => $assetsPath,
+                "urlPath" => $urlPath,
+                "viewPath" => $viewPath
+            ]);
     }
 }

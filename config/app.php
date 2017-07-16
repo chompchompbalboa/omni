@@ -187,7 +187,6 @@ return [
          * Third Party Service Providers...
          */
 
-        Jenssegers\Mongodb\MongodbServiceProvider::class,
 
     ],
 

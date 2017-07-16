@@ -23,7 +23,7 @@ $nwaireservices = function() {
     });
     
 };
-Route::group(['domain' => 'nwaireserviceslifecoach.com'], $nwaireservices);
+Route::group(['domain' => 'nwaireservices.com'], $nwaireservices);
 Route::group(['domain' => 'nwaireservices.local'], $nwaireservices);
 
 /*
@@ -41,15 +41,11 @@ $reastman = function() {
         return view('reastman.login')->with('path', 'reastman');
     });
 
-    Route::get('/starting-points', function() {
-        return view('reastman.starting-points')->with('path', 'reastman');
-    });
-
-    Route::get('/starting-points/{name}', function() {
-        return view('reastman.starting-points.load')->with('path', 'reastman');
-    });
-
-    Route::get('/preview/{previewID}', 'PreviewController@loadPreview');
+    Route::get('/previews/{id}/{page?}', 
+        [
+            "uses" => "PreviewController@loadPreview",
+            "page" => "home"
+        ]);
     
 };
 Route::group(['domain' => 'reastman.com'], $reastman);
