@@ -12,7 +12,7 @@ $('#formspree').submit(function(e) {
 
     // Send form data
     $.ajax({
-        url: "https://formspree.io/eastmanrjr@gmail.com", 
+        url: "https://formspree.io/info@nwaireservices.com", 
         method: "POST",
         data: {
             Name: values.name,
