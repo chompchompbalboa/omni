@@ -27,6 +27,26 @@ Route::group(['domain' => 'nwaireservices.com'], $nwaireservices);
 Route::group(['domain' => 'nwaireservices.local'], $nwaireservices);
 
 /*
+* Simple Design Co.
+*
+* simpledesignco.com
+*/
+$simpledesignco = function() {
+
+    Route::get('/', function() {
+        return view('simpledesignco.simpledesignco', 
+            [
+                "assetsPath" => "/assets/simpledesignco",
+                "urlPath" => "/",
+                "viewPath" => "simpledesignco.",
+            ]);
+    });
+    
+};
+Route::group(['domain' => 'simpledesignco.com'], $simpledesignco);
+Route::group(['domain' => 'simpledesignco.local'], $simpledesignco);
+
+/*
 * Rocky Eastman
 *
 * reastman.com
