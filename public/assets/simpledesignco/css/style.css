@@ -13625,3 +13625,12 @@ body:not(.no-transition) #wrapper,
 	margin: -10px 0 0 0;
 }
 
+.logo-font {
+	font-family: 'Cookie', 'cursive';
+}
+
+.footer_logo {
+	width: 7.5vw;
+	margin-bottom: 0;
+}
+

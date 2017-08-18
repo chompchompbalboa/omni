@@ -7,7 +7,7 @@
 
 	<!-- Stylesheets
 	============================================= -->
-	<link href="http://fonts.googleapis.com/css?family=Poppins:300,400,400italic,600,700|Montserrat:400,700|Merriweather" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Poppins:300,400,400italic,600,700|Montserrat:400,700|Merriweather|Cookie" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="{{ $assetsPath }}/css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="{{ $assetsPath }}/css/style.css" type="text/css" />
 	<link rel="stylesheet" href="{{ $assetsPath }}/css/dark.css" type="text/css" />
@@ -56,8 +56,8 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="{{ $assetsPath }}/images/logo-dark.png"><img src="{{ $assetsPath }}/images/logo.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="{{ $assetsPath }}/images/logo-dark@2x.png"><img src="{{ $assetsPath }}/images/logo@2x.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="standard-logo" data-dark-logo="{{ $assetsPath }}/images/logo_white.png"><img src="{{ $assetsPath }}/images/logo_black.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="retina-logo" data-dark-logo="{{ $assetsPath }}/images/logo_white.png"><img src="{{ $assetsPath }}/images/logo_black.png" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 
 					<!-- Primary Navigation
@@ -135,9 +135,6 @@
 									<a href="#" class="fright">Forgot Password?</a>
 								</div>
 							</form>
-							<div class="line line-sm"></div>
-							<a href="#" class="button button-rounded btn-block t400 center capitalize si-facebook si-colored noleftmargin norightmargin">Login with Facebook</a>
-							<a href="#" class="button button-rounded btn-block t400 center capitalize si-gplus si-colored nomargin">Login with Google</a>
 						</div>
 					</div>
 				</div>
@@ -617,7 +614,7 @@
 							<div class="widget clearfix">
 								<div class="row clearfix">
 									<div class="col-md-8 bottommargin-sm clearfix" style="color:#888;">
-										<img src="{{ $assetsPath }}/images/footer-logo.png" alt="Canvas Logo" style="display: block;" class="bottommargin-sm">
+										<img src="{{ $assetsPath }}/images/logo_footer.png" alt="Canvas Logo" style="display: block;" class="bottommargin-sm">
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, consequatur facere molestiae iusto atque.</p>
 
 										<a href="#" class="social-icon si-small si-borderless si-colored si-rounded si-facebook">
