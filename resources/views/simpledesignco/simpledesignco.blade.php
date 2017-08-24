@@ -97,7 +97,7 @@
 						<div class="row clearfix">
 							<div class="col-md-6 col-sm-8">
 								<div class="emphasis-title">
-									<h1 class="font-body">Never worry about<br>your website again</h1>
+									<h1 class="font-body">Everything online.<br>Simplified.</h1>
 									<p class="hero-action-link">We take care of everything so you can<br />  focus on running your business</p>
 								</div>
 								<a id="landing-button" href="#" data-scrollto="#section-nextgen" data-easing="easeInOutExpo" data-speed="1250" data-offset="160" class="button button-large button-white button-light capitalize" style="border-radius: 23px;">Learn More</a>
@@ -152,11 +152,11 @@
 								<div class="topmargin-lg hidden-xs hidden-sm"></div>
 								<img src="{{ $assetsPath }}/images/section/section-1-icon.png" alt="" style="display: block;" class="bottommargin-sm">
 								<div class="emphasis-title bottommargin-sm">
-									<span class="before-heading">Plug into the</span>
-									<h2 style="font-size: 42px;" class="font-body ls1 t400">NextGen Framework</h2>
+									<span class="before-heading">It's really simple</span>
+									<h2 style="font-size: 42px;" class="font-body ls1 t400">We do it all for you.</h2>
 								</div>
-								<p style="color: #777;" class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, vel! Eius pariatur nemo expedita.</p>
-								<a href="#" class="section-more-link">Learn More <i class="icon-angle-right"></i></a>
+								<p style="color: #777;" class="lead">Your website, social media, online advertising - you name it. We'll take care of it.</p>
+								<a href="#" class="section-more-link">Read about our award-winning service<i class="icon-angle-right"></i></a>
 							</div>
 
 						</div>
@@ -171,10 +171,10 @@
 								<div class="topmargin-lg hidden-xs hidden-sm"></div>
 								<img src="{{ $assetsPath }}/images/section/section-2-icon.png" alt="" style="display: block;" class="bottommargin-sm">
 								<div class="emphasis-title bottommargin-sm">
-									<span class="before-heading">Retina Ready &#x7E; 534 PPI</span>
-									<h2 style="font-size: 42px;" class="font-body ls1 t400">Stunning Graphics</h2>
+									<span class="before-heading">Name your price</span>
+									<h2 style="font-size: 42px;" class="font-body ls1 t400">On your budget</h2>
 								</div>
-								<p style="color: #777;" class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, vel! Eius pariatur nemo expedita.</p>
+								<p style="color: #777;" class="lead">We're here to help your business. That's why we let you name your price for the services you want.</p>
 								<a href="#" class="section-more-link">Learn More <i class="icon-angle-right"></i></a>
 							</div>
 
@@ -197,8 +197,8 @@
 								<div class="topmargin-lg hidden-xs hidden-sm"></div>
 								<img src="{{ $assetsPath }}/images/section/section-3-icon.png" alt="" style="display: block;" class="bottommargin-sm">
 								<div class="emphasis-title bottommargin-sm">
-									<span class="before-heading">Privacy Protected</span>
-									<h2 style="font-size: 42px;" class="font-body ls1 t400">Secured Solutions</h2>
+									<span class="before-heading">Best-in-class advice</span>
+									<h2 style="font-size: 42px;" class="font-body ls1 t400">To the highest standard</h2>
 								</div>
 								<p style="color: #777;" class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, vel! Eius pariatur nemo expedita.</p>
 								<a href="#" class="section-more-link">Learn More <i class="icon-angle-right"></i></a>
