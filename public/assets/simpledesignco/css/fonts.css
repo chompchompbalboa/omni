@@ -1,8 +1,9 @@
 /* ----------------------------------------------------------------
-	Fonts
+    Fonts
 
-	Replace your Fonts as necessary
+    Replace your Fonts as necessary
 -----------------------------------------------------------------*/
+
 
 body,
 small,
@@ -23,7 +24,8 @@ small,
 .before-heading,
 .wedding-head .first-name span,
 .wedding-head .last-name span,
-.font-secondary { font-family: 'Poppins', sans-serif; }
+.font-secondary { font-family: 'Open Sans', sans-serif; }
+
 
 h1,
 h2,
@@ -43,18 +45,6 @@ label,
 .nav-tree li a,
 .wedding-head .first-name,
 .wedding-head .last-name,
-.font-primary { font-family: 'Montserrat', sans-serif; }
-
-.entry-meta li,
-.entry-link span,
-.entry blockquote p,
-.more-link,
-.comment-content .comment-author span,
-.button.button-desc span,
 .testi-content p,
-.team-title span,
-.before-heading,
-.wedding-head .first-name span,
-.wedding-head .last-name span,
-.font-secondary { font-family: 'Merriweather', serif; }
+.font-primary { font-family: 'Poppins', sans-serif; }
 
