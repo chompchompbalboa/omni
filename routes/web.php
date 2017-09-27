@@ -10,6 +10,27 @@
 | to using a Closure or controller method. Build something great!
 |
 */
+
+/*
+* Krys Karns - Life Coach
+*
+* kryskarnslifecoach.com
+*/
+$kryskarnslifecoach = function() {
+
+    Route::get('/', function() {
+        return view('kryskarnslifecoach.home', 
+            [
+                "assetsPath" => "/assets/kryskarnslifecoach",
+                "urlPath" => "/",
+                "viewPath" => "kryskarnslifecoach.",
+            ]);
+    });
+    
+};
+Route::group(['domain' => 'kryskarnslifecoach.com'], $kryskarnslifecoach);
+Route::group(['domain' => 'kryskarnslifecoach.local'], $kryskarnslifecoach);
+
 /*
 * Northwest Aire Services
 *
@@ -69,18 +90,4 @@ $reastman = function() {
 };
 Route::group(['domain' => 'reastman.com'], $reastman);
 Route::group(['domain' => 'rockyeastman.local'], $reastman);
-
-/*
-* Rocky Eastman Staging
-*
-* rockyeastmanstaging.com
-*/
-$rockyeastmanstaging = function() {
-
-    Route::get('/', function() {
-        return view('nwaireservices.welcome');
-    });
-    
-};
-Route::group(['domain' => 'rockyeastmanstaging.com'], $nwaireservices);
 
