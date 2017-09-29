@@ -89,5 +89,5 @@ $reastman = function() {
     
 };
 Route::group(['domain' => 'reastman.com'], $reastman);
-Route::group(['domain' => 'rockyeastman.local'], $reastman);
+Route::group(['domain' => 'reastman.local'], $reastman);
 

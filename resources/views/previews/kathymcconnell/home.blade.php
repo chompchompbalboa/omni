@@ -1,45 +1,34 @@
 <!DOCTYPE HTML>
-<!--
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Read Only by HTML5 UP</title>
+		<title>Kathy McConnell</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="{{ $assetsPath }}/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="{{ $assetsPath }}/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
 
-		<!-- Header -->
+		<!-- Header --> 
 			<section id="header">
 				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Willis Corto</a></h1>
-					<p>I got reprogrammed by a rogue AI<br />
-					and now I'm totally cray</p>
+					<span class="image avatar"><img src="{{ $assetsPath }}/images/avatar.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">Kathy McConnell</a></h1>
+					<p>Writer</p>
 				</header>
 				<nav id="nav">
 					<ul>
-						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Things I Can Do</a></li>
-						<li><a href="#three">A Few Accomplishments</a></li>
-						<li><a href="#four">Contact</a></li>
+						<li><a href="#one" class="active">Home</a></li>
+						<li><a href="#two">About</a></li>
+						<li><a href="#three">Writings</a></li>
+						<li><a href="#four">Photos</a></li>
+						<li><a href="#five">Events</a></li>
+						<li><a href="#six">Awards</a></li>
+						<li><a href="#seven">Blog</a></li>
+						<li><a href="#eight">Contact</a></li>
 					</ul>
 				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</footer>
 			</section>
 
 		<!-- Wrapper -->
@@ -63,77 +52,354 @@
 						<!-- Two -->
 							<section id="two">
 								<div class="container">
-									<h3>Things I Can Do</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
-									<ul class="feature-icons">
-										<li class="fa-code">Write all the code</li>
-										<li class="fa-cubes">Stack small boxes</li>
-										<li class="fa-book">Read books and stuff</li>
-										<li class="fa-coffee">Drink much coffee</li>
-										<li class="fa-bolt">Lightning bolt</li>
-										<li class="fa-users">Shadow clone technique</li>
-									</ul>
+									<h3>About me</h3>
+									<p>
+										Back in college, I was attracted to the creative endeavor of dovetailing words with images and
+										therefore chose marketing as my major. Although I liked the playfulness of the studies - when
+										the shyster side of selling began dominating a few of my classes - I began doubting my decision.
+										Fortuitously, the university’s archeology department had begun the study of garbage. Carless
+										and longing to get off campus, I joined a weekend to fieldtrip collect trash along a highway south
+										of Tucson. While stabbing at another piece of well-marketed garbage, the young man walking
+										beside me - an archeology major – asked me what I was studying. Now, as I replay my memory
+										of that moment – brushed by the hot wind of passing traffic and feeling ashamed to say I was in
+										marketing, I made a momentous decision. I answered, “I am thinking of changing my major to
+										education.” The following Monday, I enrolled in education with a minor in history.
+									</p>
+									<p>
+										When I moved to St. Louis after graduation, there were few options for high school history
+										teachers, so I wandered down the hill from my home and took a job in a daycare center. I loved
+										the joyful exuberance of the young age and eventually began a Master’s degree in early
+										childhood education. While I was studying at the university, a professor offered me the
+										opportunity to co-author an early childhood mathematics book. Dry stuff, but an interesting
+										endeavor in publishing.
+									</p>
+										Over a number of years, I worked both as an administrator in elementary schools and preschools,
+										and as a teacher. I wrote thousands of words in children’s memory books in a Reggio Emelia
+										program and plied the writing field through policies, articles, talks and handbooks. I intended to
+										write a book on administration with the principles grounded in stories… for instance, how my
+										school initially was financed with a single donation of one-hundred- and-forty dollars.
+									</p>
+										Before the administrative book took shape, a new plot appeared in my life. My husband was
+										diagnosed with pancreatic cancer. I grieved three-and- half-years anticipating his passing and
+										then two more years after his death —equaling a five-year degree in grief. That education
+										combined with my years of writing laid the groundwork upon my retirement for my blog
+										boxoftales.com. Packing my car with my dog and my maps, I began the travels that led to the
+										book, Mapping the Topography of Grief – a Travel Memoir. I have began giving readings and
+										talks on grief and writing a second book named The Education of an American Houser – a
+										Selection of Observations. Next up? Maybe that book on administration…
 								</div>
 							</section>
 
 						<!-- Three -->
 							<section id="three">
 								<div class="container">
-									<h3>A Few Accomplishments</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+									<h3>Writings</h3>
+									<p></p>
 									<div class="features">
 										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<a href="#" class="image"><img src="{{ $assetsPath }}/images/pic01.jpg" alt="" /></a>
 											<div class="inner">
-												<h4>Possibly broke spacetime</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<h4>Mapping the Topography of Grief - A Travel Memoir</h4>
+												<p>A completed manuscript</p>
 											</div>
+											<p>
+												<br/>
+												“Step Six. (Of nine.)
+											</p>
+											<p>
+												Chart roadways, <br/> 
+												by-ways, <br/> 
+												lanes <br/> 
+												and paths.  <br/> 
+												If your grieving is brief, then you will need only one road, <br/>  
+												a super-highway, upon which to hurry off to other pages of your map book. <br/> 
+												Otherwise, draw your roads crisscrossing…” <br/> 
+
+											</p>
+											<p>
+												With my slightly unruly terrier, I set off on a journey of 15,000 miles over seven months.  
+												I carried maps.  One of them I called a “Mother Map”, a crisp new map marking the destinations 
+												for my travels around North America. A second map I named my “Map of Grief” – an imaginary 
+												charting of my widow’s sorrow.  That second map began as a blank mental image with a dot – a 
+												blotch of consequence marking the death of my good man to pancreatic cancer.  As I tell stories 
+												from the road, the reader comes to understand how traveling alone is not so frightening and how 
+												being a topographer of sorrow provides one with relief.  Eventually, I roll and store my “Map of 
+												Grief” and my travels continue on to new maps. 
+											</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<a href="#" class="image"><img src="{{ $assetsPath }}/images/pic02.jpg" alt="" /></a>
 											<div class="inner">
-												<h4>Terraformed a small moon</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<h4>The Education of an American Houser – A Sampling of Observations </h4>
+												<p>A Work in Progress</p>
 											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Snapped dark matter in the wild</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
+											<p>
+												<br/>
+												“I was a mere child at the time in the 50’s at the beginning of my education as a houser. 
+												… I would come to specialize in middle-class houses.”
+											</p>
+											<p>
+												Growing up in a cinder block house in a suburb of Reno, Nevada, I began a lifelong 
+												fascination with how houses influence inhabitants.  Riding neighborhoods in Newport News, 
+												Virginia in my Uncle Charlie and Aunt Margaret’s Buick, I furthered my education. 
+												“Quietly from the spacious backseat, I took in the house critiques. By the time I was ten, 
+												I assumed all children studied rooflines, window styles or were conversant in architectural 
+												terms like vestibules, saltbox, and corbels.” 
+											</p>
+											<p>
+												Over the years, moving from city to city, I became aware of an imbalance of resources, ideas 
+												and roles.  While design, funding and construction of common housing has traditionally been 
+												male-dominated fields, the beginnings of female input and the potential for women to become 
+												active agents in a new world of more equitable and nurturing housing is an exciting possibility. 
+												Woman like Jane Jacobs, author of the Life and Death of American Cities or the female entrepreneurs 
+												of Yola - inventors of non-toxic house paints - are models for the potential for women to become 
+												involved in building a new world of equitable and nurturing housing. Moreover, endeavors for children 
+												like the organization, Girls Build, started by Katie Hughes in Portland, Oregon offers summer camps 
+												for girls in construction trades.  Nothing like this existed when I was a child.  It wasn’t until 
+												I was older and a single mom before I began gathering tools– bear claws, a hod, a chop saw and sanders.  
+												The Education of an American Houser, as a literary memoir, adds to the conversation with the documentation 
+												of one woman’s observations of houser skills and ideas, acquired along her path from being a child living 
+												in a cinder block house to a widow living in a cabin in the woods.    
+											</p>
 										</article>
 									</div>
 								</div>
 							</section>
 
 						<!-- Four -->
-							<section id="four">
-								<div class="container">
-									<h3>Contact Me</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-									<form method="post" action="#">
-										<div class="row uniform">
-											<div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-											<div class="6u 12u(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+						<section id="four">
+							<div class="container">
+								<h3>Photos</h3>
+								<p>
+									As if writing with a shutter, I look for a hook with my lens.  
+									In a paragraph of images, one will be the hook.  
+									Each image has a backstory and is created with an agility honed by having taken thousands of snapshots.  
+									Two skills, nay three, are present at each good shot.  
+									Playing with the framing, being quietly alert and remembering to hold the camera still.  
+									Enjoy.
+									<br/><br/>
+									Permission from the author is required for reprint or reuse.   
+								</p>
+								<div class="box alt">
+									<div class="row 50% uniform">
+										<div class="4u">
+											<span class="image fit">
+												<img src="{{ $assetsPath }}/images/photos/photo1.png" alt="" />
+											</span>
+											<p>
+												“Girl Crossing the Millennium”<br/>
+												London, England<br/>
+												2016
+											</p>
 										</div>
-										<div class="row uniform">
-											<div class="12u"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+										<div class="4u">
+											<span class="image fit">
+												<img src="{{ $assetsPath }}/images/photos/photo2.png" alt="" />
+											</span>
+											<p>
+												“Cat Hunting from a Cushion”<br/>
+												Montreal, Canada<br/>
+												2013
+											</p>
 										</div>
-										<div class="row uniform">
-											<div class="12u"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+										<div class="4u">
+											<span class="image fit">
+												<img src="{{ $assetsPath }}/images/photos/photo3.png" alt="" />
+											</span>
+											<p>
+												“Tinted Beach”<br/>
+												Ocean Shores, Washington<br/>
+												2017
+											</p>
 										</div>
-										<div class="row uniform">
-											<div class="12u">
-												<ul class="actions">
-													<li><input type="submit" class="special" value="Send Message" /></li>
-													<li><input type="reset" value="Reset Form" /></li>
-												</ul>
-											</div>
+									</div>
+									<div class="row 50% uniform">
+										<div class="4u">
+											<span class="image fit">
+												<img src="{{ $assetsPath }}/images/photos/photo4.png" alt="" />
+											</span>
+											<p>
+												“Women on the Ferry”<br/>
+												San Juan Islands<br/>
+												2015
+											</p>
 										</div>
-									</form>
+										<div class="4u">
+											<span class="image fit">
+												<img src="{{ $assetsPath }}/images/photos/photo5.png" alt="" />
+											</span>
+											<p>
+												“Flying Above”<br/>
+												Los Padres National Forest, California<br/>
+												2015
+											</p>
+										</div>
+										<div class="4u">
+											<span class="image fit">
+												<img src="{{ $assetsPath }}/images/photos/photo6.png" alt="" />
+											</span>
+											<p>
+												“The Dog's View”<br/>
+												Multnomah Falls, Oregon<br/>
+												2017
+											</p>
+										</div>
+									</div>
+									<div class="row 50% uniform">
+										<div class="4u">
+											<span class="image fit">
+												<img src="{{ $assetsPath }}/images/photos/photo7.png" alt="" />
+											</span>
+											<p>
+												“Love Made It in Stones”<br/>
+												McWay Beach, Julia Pfeiffer Burns State Park, California<br/>
+												2014
+											</p>
+										</div>
+										<div class="4u">
+											<span class="image fit">
+												<img src="{{ $assetsPath }}/images/photos/photo8.png" alt="" />
+											</span>
+											<p>
+												“The Sky is Falling”<br/>
+												Baker Valley, Oregon<br/>
+												2006<br/>
+												Film
+											</p>
+										</div>
+										<div class="4u">
+											<span class="image fit">
+												<img src="{{ $assetsPath }}/images/photos/photo9.png" alt="" />
+											</span>
+											<p>
+												“Dinosaur Mirage”<br/>
+												Bath, England<br/>
+												2017
+											</p>
+										</div>
+									</div>
+									<div class="row 50% uniform">
+										<div class="4u">
+											<span class="image fit">
+												<img src="{{ $assetsPath }}/images/photos/photo10.png" alt="" />
+											</span>
+											<p>
+												“A Maypole of Electricity”<br/>
+												Bath, England<br/>
+												2017
+											</p>
+										</div>
+										<div class="4u">
+											<span class="image fit">
+												<img src="{{ $assetsPath }}/images/photos/photo11.png" alt="" />
+											</span>
+											<p>
+												“Cheap Red Transport”<br/>
+												London, England<br/>
+												2012
+											</p>
+										</div>
+										<div class="4u">
+											<span class="image fit">
+												<img src="{{ $assetsPath }}/images/photos/photo12.png" alt="" />
+											</span>
+											<p>
+												“It Is All About the Hats”<br/>
+												Pendleton, Oregon<br/>
+												2017
+											</p>
+										</div>
+									</div>
+									<div class="row 50% uniform">
+										<div class="4u">
+											<span class="image fit">
+												<img src="{{ $assetsPath }}/images/photos/photo13.png" alt="" />
+											</span>
+											<p>
+												“Tulips”<br/>
+												Descanso Gardens, California<br/>
+												2016
+											</p>
+										</div>
+										<div class="4u">
+											<span class="image fit">
+												<img src="{{ $assetsPath }}/images/photos/photo14.png" alt="" />
+											</span>
+											<p>
+												“Sun Squared”<br/>
+												Orcas Island, San Juan Islands, Washington<br/>
+												2015
+											</p>
+										</div>
+										<div class="4u">
+											<span class="image fit">
+												<img src="{{ $assetsPath }}/images/photos/photo15.png" alt="" />
+											</span>
+											<p>
+												“Dry Cleavage”<br/>
+												East of Canyonlands National Park<br/>
+												2014
+											</p>
+										</div>
+									</div>
+									<div class="row 50% uniform">
+										<div class="4u">
+											<span class="image fit">
+												<img src="{{ $assetsPath }}/images/photos/photo16.png" alt="" />
+											</span>
+											<p>
+												“The Space Needle's Flagpole”<br/>
+												Seattle, Washington<br/>
+												2009<br/>
+												Film
+											</p>
+										</div>
+										<div class="4u">
+											<span class="image fit">
+												<img src="{{ $assetsPath }}/images/photos/photo17.png" alt="" />
+											</span>
+											<p>
+												“Self Portrait with Sugar Cannister”<br/>
+												Portland, Oregon<br/>
+												2014
+											</p>
+										</div>
+									</div>
 								</div>
-							</section>
+							</div>
+						</section>
+
+						<!-- Events -->
+						<section id="five">
+							<div class="container">
+								<h2>Events</h2>
+								<p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+							</div>
+						</section>
+
+						<!-- Awards -->
+						<section id="six">
+							<div class="container">
+								<h2>Awards</h2>
+								<p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+							</div>
+						</section>
+
+						<!-- Blog -->
+						<section id="seven">
+							<div class="container">
+								<h2>Blog</h2>
+								<p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+							</div>
+						</section>
+
+						<!-- Contact -->
+						<section id="eight">
+							<div class="container">
+								<h3>Contact Me</h3>
+								<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+							</div>
+						</section>
 
 						<!-- Five -->
 						<!--
@@ -455,27 +721,27 @@
 									<section>
 										<h4>Image</h4>
 										<h5>Fit</h5>
-										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+										<span class="image fit"><img src="{{ $assetsPath }}/images/banner.jpg" alt="" /></span>
 										<div class="box alt">
 											<div class="row 50% uniform">
-												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic01.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic02.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic03.jpg" alt="" /></span></div>
 											</div>
 											<div class="row 50% uniform">
-												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic02.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic03.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic01.jpg" alt="" /></span></div>
 											</div>
 											<div class="row 50% uniform">
-												<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic03.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic01.jpg" alt="" /></span></div>
+												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic02.jpg" alt="" /></span></div>
 											</div>
 										</div>
 										<h5>Left &amp; Right</h5>
-										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image left"><img src="{{ $assetsPath }}/images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image right"><img src="{{ $assetsPath }}/images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
 									</section>
 
 								</div>
@@ -488,7 +754,10 @@
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>
+									&copy; Kathy McConnell. &nbsp;&nbsp;All rights reserved. <br/>Permission from the author is required for reprint or 
+									reuse of any text or images from this page
+								</li>
 							</ul>
 						</div>
 					</section>
@@ -496,13 +765,13 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<script src="{{ $assetsPath }}/js/jquery.min.js"></script>
+			<script src="{{ $assetsPath }}/js/jquery.scrollzer.min.js"></script>
+			<script src="{{ $assetsPath }}/js/jquery.scrolly.min.js"></script>
+			<script src="{{ $assetsPath }}/js/skel.min.js"></script>
+			<script src="{{ $assetsPath }}/js/util.js"></script>
+			<!--[if lte IE 8]><script src="{{ $assetsPath }}/js/ie/respond.min.js"></script><![endif]-->
+			<script src="{{ $assetsPath }}/js/main.js"></script>
 
 	</body>
 </html>

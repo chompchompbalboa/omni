@@ -108,8 +108,8 @@
 						<div class="swiper-slide dark" style="background-image: url('{{ $assetsPath }}/images/slider/1.jpg'); background-size: cover">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
-									<h2 class="font-primary nott">Creative Work.</h2>
-									<p class="t300 font-primary">Quickly communicate bleeding-edge best practices.</p>
+									<h2 class="font-primary nott">We redesign websites.</h2>
+									<p class="t300 font-primary">And make it unbelievably easy to upgrade.</p>
 									<a href="#" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
 								</div>
 							</div>
