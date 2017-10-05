@@ -85,7 +85,7 @@
                 <!-- Services -->
                     <article id="services" class="panel secondary">
                         <div class="image editable-gallery" id="untitled-region-14">
-<a href="{{ $assetsPath }}/images/KrysServices.jpg"><img src="{{ $assetsPath }}/images/KrysServices.jpg" alt="" style="display: none;"></a>
+<a href="{{ $assetsPath }}/images/rocks.jpg"><img src="{{ $assetsPath }}/images/rocks.jpg" alt="" style="display: none;"></a>
 </div>
                         <div class="content">
                             <ul class="actions spinX">
@@ -96,7 +96,8 @@
                                     <h2 class="editable" id="untitled-region-19">Services</h2>
                                     <h3></h3>
                                 </header>
-                                <p class="editable" id="untitled-region-20">Having a life coach does not mean you need to be fixed.&nbsp; It means you are ready to awaken the power within and move forward to transform your life. Are you ready?</p> 
+                                <p class="editable" id="untitled-region-20">Having a life coach does not mean you need to be fixed.  It means you are ready to  awaken the power within, create balance and move forward to transform your life.</p> 
+                                <p class="editable" id="untitled-region-20">Are you ready?</p> 
                                 <p class="editable" id="untitled-region-21"><a href="#contact">Contact me</a> today to schedule a 1 hour complimentary one on one session.</p>
                             </div>
                         </div>
