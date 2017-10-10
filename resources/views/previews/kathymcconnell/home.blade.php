@@ -40,12 +40,19 @@
 						<!-- One -->
 							<section id="one">
 								<div class="container">
-									<header class="major">
-										<h2>Read Only</h2>
-										<p>Just an incredibly simple responsive site<br />
-										template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
-									</header>
-									<p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+									<div class="intro">
+										<h4>Mapping the Topography of Grief - A Travel Memoir</h4>
+										<p>
+											“I asked my Mother Map to open-up those crisp folds and let me draw paths across her paper skin. 
+											Let me find what I was searching for.”
+										</p>
+										<h4>The Education of an American Houser – A Selection of Observations</h4>
+										<p>
+											“Lacking a tree for a treehouse and having to substitute a military trunk was an early indication 
+											of the flexibility and creativity that would mark my endeavors to define the essence of a house and 
+											the inequities of housing stock. In short, become a houser.”
+										</p>
+									</div>
 								</div>
 							</section>
 
@@ -83,10 +90,10 @@
 										diagnosed with pancreatic cancer. I grieved three-and- half-years anticipating his passing and
 										then two more years after his death —equaling a five-year degree in grief. That education
 										combined with my years of writing laid the groundwork upon my retirement for my blog
-										boxoftales.com. Packing my car with my dog and my maps, I began the travels that led to the
-										book, Mapping the Topography of Grief – a Travel Memoir. I have began giving readings and
-										talks on grief and writing a second book named The Education of an American Houser – a
-										Selection of Observations. Next up? Maybe that book on administration…
+										<a href="http://www.boxoftales.com">boxoftales.com</a>. Packing my car with my dog and my maps, 
+										I began the travels that led to the book, Mapping the Topography of Grief – a Travel Memoir. I 
+										have began giving readings and talks on grief and writing a second book named The Education of 
+										an American Houser – a Selection of Observations. Next up? Maybe that book on administration…
 								</div>
 							</section>
 
@@ -372,8 +379,19 @@
 						<!-- Events -->
 						<section id="five">
 							<div class="container">
-								<h2>Events</h2>
-								<p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+								<h2>Upcoming Events</h2>
+								<p>
+									Readings and Discussion of Grief Recovery<br/>
+									Dayton Memorial Public Library<br/>
+									111 South 3rd St., Dayton, Washington 99328<br/>
+									(Date to be announced.)
+								</p>
+								<p>
+									Fishtrap Reading<br/>
+									Fishtrap House<br/>
+									400 E. Grant St, Enterprise, Oregon 97828<br/>
+									(Date to be announced.)
+								</p>
 							</div>
 						</section>
 
@@ -381,7 +399,10 @@
 						<section id="six">
 							<div class="container">
 								<h2>Awards</h2>
-								<p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+								<p>
+									Helen R. Whiteley Writer’s Residency, October 2016, San Juan Islands<br/>
+									Pacific Northwest Writers Association Memoir Finalist, 2017
+								</p>
 							</div>
 						</section>
 
@@ -389,7 +410,7 @@
 						<section id="seven">
 							<div class="container">
 								<h2>Blog</h2>
-								<p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+								<p><a href="http://www.boxoftales.com">Box of Tales: Travels, Musings and Stories</a></p>
 							</div>
 						</section>
 
@@ -397,7 +418,7 @@
 						<section id="eight">
 							<div class="container">
 								<h3>Contact Me</h3>
-								<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+								<p>Feel free to email me at <a href="mailto:kathymcconnell5@gmail.com">kathymcconnell5@gmail.com</a></p>
 							</div>
 						</section>
 
