@@ -41,12 +41,12 @@
 							<section id="one">
 								<div class="container">
 									<div class="intro">
-										<h4>Mapping the Topography of Grief - A Travel Memoir</h4>
+										<h4>Mapping the Topography of Grief &mdash; A Travel Memoir</h4>
 										<p>
 											“I asked my Mother Map to open-up those crisp folds and let me draw paths across her paper skin. 
 											Let me find what I was searching for.”
 										</p>
-										<h4>The Education of an American Houser – A Selection of Observations</h4>
+										<h4>The Education of an American Houser &mdash; A Selection of Observations</h4>
 										<p>
 											“Lacking a tree for a treehouse and having to substitute a military trunk was an early indication 
 											of the flexibility and creativity that would mark my endeavors to define the essence of a house and 
@@ -91,9 +91,9 @@
 										then two more years after his death —equaling a five-year degree in grief. That education
 										combined with my years of writing laid the groundwork upon my retirement for my blog
 										<a href="http://www.boxoftales.com">boxoftales.com</a>. Packing my car with my dog and my maps, 
-										I began the travels that led to the book, Mapping the Topography of Grief – a Travel Memoir. I 
-										have began giving readings and talks on grief and writing a second book named The Education of 
-										an American Houser – a Selection of Observations. Next up? Maybe that book on administration…
+										I began the travels that led to the book, <em>Mapping the Topography of Grief – a Travel Memoir</em>. I 
+										have began giving readings and talks on grief and writing a second book named <em>The Education of 
+										an American Houser – a Selection of Observations</em>. Next up? Maybe that book on administration…
 								</div>
 							</section>
 
@@ -410,7 +410,12 @@
 						<section id="seven">
 							<div class="container">
 								<h2>Blog</h2>
-								<p><a href="http://www.boxoftales.com">Box of Tales: Travels, Musings and Stories</a></p>
+								<div class="features">
+									<article>
+										<a href="http://www.boxoftales.com" class="image"><img src="{{ $assetsPath }}/images/pic04.jpg" alt="" /></a>
+										<p><br/><a href="http://www.boxoftales.com">Box of Tales: Travels, Musings and Stories</a></p>
+									</article>
+								</div>
 							</div>
 						</section>
 
@@ -418,7 +423,7 @@
 						<section id="eight">
 							<div class="container">
 								<h3>Contact Me</h3>
-								<p>Feel free to email me at <a href="mailto:kathymcconnell5@gmail.com">kathymcconnell5@gmail.com</a></p>
+								<p>Email: <a href="mailto:kathymcconnell5@gmail.com">kathymcconnell5@gmail.com</a></p>
 							</div>
 						</section>
 
