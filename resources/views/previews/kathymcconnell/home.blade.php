@@ -133,6 +133,11 @@
 												being a topographer of sorrow provides one with relief.  Eventually, I roll and store my “Map of 
 												Grief” and my travels continue on to new maps. 
 											</p>
+											<h4>A Reading:</h4>
+											<audio 
+												src="{{ $assetsPath }}/audio/reading1.m4a"
+												controls
+											></audio>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="{{ $assetsPath }}/images/pic02.jpg" alt="" /></a>
