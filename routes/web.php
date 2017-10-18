@@ -12,6 +12,26 @@
 */
 
 /*
+* Kathy McConnell
+*
+* kathymcconnell.net
+*/
+$kathymcconnell = function() {
+
+    Route::get('/', function() {
+        return view('kathymcconnell.home', 
+            [
+                "assetsPath" => "/assets/kathymcconnell",
+                "urlPath" => "/",
+                "viewPath" => "kathymcconnell.",
+            ]);
+    });
+    
+};
+Route::group(['domain' => 'kathymcconnell.net'], $kathymcconnell);
+Route::group(['domain' => 'kathymcconnell.local'], $kathymcconnell);
+
+/*
 * Krys Karns - Life Coach
 *
 * kryskarnslifecoach.com

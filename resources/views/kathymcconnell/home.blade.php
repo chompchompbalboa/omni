@@ -65,7 +65,7 @@
 										therefore chose marketing as my major. Although I liked the playfulness of the studies - when
 										the shyster side of selling began dominating a few of my classes - I began doubting my decision.
 										Fortuitously, the university’s archeology department had begun the study of garbage. Carless
-										and longing to get off campus, I joined a weekend to fieldtrip collect trash along a highway south
+										and longing to get off campus, I joined a weekend fieldtrip to collect trash along a highway south
 										of Tucson. While stabbing at another piece of well-marketed garbage, the young man walking
 										beside me - an archeology major – asked me what I was studying. Now, as I replay my memory
 										of that moment – brushed by the hot wind of passing traffic and feeling ashamed to say I was in
@@ -140,38 +140,64 @@
 											></audio>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="{{ $assetsPath }}/images/pic02.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>The Education of an American Houser – A Sampling of Observations </h4>
 												<p>A Work in Progress</p>
 											</div>
 											<p>
 												<br/>
-												“I was a mere child at the time in the 50’s at the beginning of my education as a houser. 
-												… I would come to specialize in middle-class houses.”
+												“I was a mere child at the time in the 50’s at the beginning of my education as a houser. … I
+												would come to specialize in middle-class houses.”<sup>1</sup>
 											</p>
 											<p>
-												Growing up in a cinder block house in a suburb of Reno, Nevada, I began a lifelong 
-												fascination with how houses influence inhabitants.  Riding neighborhoods in Newport News, 
-												Virginia in my Uncle Charlie and Aunt Margaret’s Buick, I furthered my education. 
-												“Quietly from the spacious backseat, I took in the house critiques. By the time I was ten, 
-												I assumed all children studied rooflines, window styles or were conversant in architectural 
-												terms like vestibules, saltbox, and corbels.” 
+												Growing up in a home built with cinder blocks in a suburb of Reno, Nevada, I began a lifelong
+												fascination with how houses influence inhabitants. Cruising through neighborhoods in Newport
+												News, Virginia in my Uncle Charlie and Aunt Margaret’s Buick, I furthered my education:
+												“Quietly from the spacious backseat, I took in their house critiques. By the time I was ten, I
+												assumed all children studied rooflines, window styles or were conversant in architectural terms
+												like vestibules, saltbox, and corbels.”<sup>2</sup>
 											</p>
 											<p>
-												Over the years, moving from city to city, I became aware of an imbalance of resources, ideas 
-												and roles.  While design, funding and construction of common housing has traditionally been 
-												male-dominated fields, the beginnings of female input and the potential for women to become 
-												active agents in a new world of more equitable and nurturing housing is an exciting possibility. 
-												Woman like Jane Jacobs, author of the Life and Death of American Cities or the female entrepreneurs 
-												of Yola - inventors of non-toxic house paints - are models for the potential for women to become 
-												involved in building a new world of equitable and nurturing housing. Moreover, endeavors for children 
-												like the organization, Girls Build, started by Katie Hughes in Portland, Oregon offers summer camps 
-												for girls in construction trades.  Nothing like this existed when I was a child.  It wasn’t until 
-												I was older and a single mom before I began gathering tools– bear claws, a hod, a chop saw and sanders.  
-												The Education of an American Houser, as a literary memoir, adds to the conversation with the documentation 
-												of one woman’s observations of houser skills and ideas, acquired along her path from being a child living 
-												in a cinder block house to a widow living in a cabin in the woods.    
+												The Education of an American Houser, as a literary memoir, adds to the conversation with the
+												documentation of one woman’s observations of houser skills and ideas acquired along her path
+												from being a child to a widow living in a cabin in the woods. The term “houser” might be an
+												unfamiliar word, but in Houser: The Life and Work of Catherine Bauer, 1905-64, Peter
+												Oberlander, one author, describes a “houser” in this quote from the preface: “Catherine talked
+												about housing not only in terms of architectural or urban planning, but as social responsibility.
+												As a “houser,” she saw housing as a bridge between architecture and planning.”<sup>3</sup>
+											</p>
+											<p>
+												Like Catherine, I became aware of an imbalance of resources, ideas and roles in housing. While
+												design, funding and construction of common housing have traditionally been male-dominated
+												fields, the beginnings of female input – a new bridge – began during my lifetime. Jane Jacobs,
+												author of The Death and Life of Great American Cities, upended the traditional notions of
+												residential planning. Female entrepreneurs – like Janie Lowe and Virginia Young, cofounders of
+												the non-toxic paint company called Yolo Colorhouse, or the tiny house designer-builders, Dee
+												Williams and Lena Menard – have become models to inspire other women to contribute in
+												making a new world of more equitable and nurturing housing.
+											</p>
+											<p>
+												I was older and a single mom before I began gathering tools – bear claws, a hod, a chop saw and
+												sanders. Becoming a “houser” with my hands, as it were. Now, there are opportunities for
+												young females to learn building trades, as with “Girls Build” started by Katie Hughes in
+												Portland, Oregon, a company offering summer camps in the construction trades for young girls.
+												I would have loved this as a child!
+											</p>
+											<p>
+												In the writing of this work, I hope to place the word “houser” into the toolbox of a wider range of
+												women, girls, and men as well.
+											</p>
+											<p>
+												_____________________________
+											</p>
+											<p>
+												<sup>1</sup>McConnell, Kathy, The Education of an American Houser — A Sampling of Observations.
+												Observation One.
+												<br />
+												<sup>2</sup>McConnell, Observation Five.
+												<br />
+												<sup>3</sup>Oberlander, Peter H. and Newbrun, Eva, Houser: The Life and Work of Catherine Bauer,
+												(UBC Press, 2000), XIV Preface.
 											</p>
 										</article>
 									</div>

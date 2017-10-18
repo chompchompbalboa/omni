@@ -108,6 +108,8 @@
 					$('#titleBar, #header, #wrapper')
 						.css('transition', 'none');
 
+		// 
+
 	});
 
 })(jQuery);
