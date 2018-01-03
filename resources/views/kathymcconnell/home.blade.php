@@ -412,16 +412,7 @@
 							<div class="container">
 								<h2>Upcoming Events</h2>
 								<p>
-									Readings and Discussion of Grief Recovery<br/>
-									Dayton Memorial Public Library<br/>
-									111 South 3rd St., Dayton, Washington 99328<br/>
-									(Date to be announced.)
-								</p>
-								<p>
-									Fishtrap Reading<br/>
-									Fishtrap House<br/>
-									400 E. Grant St, Enterprise, Oregon 97828<br/>
-									(Date to be announced.)
+									To be announced
 								</p>
 							</div>
 						</section>
