@@ -19,14 +19,14 @@
 $kathymcconnell = function() {
 
     Route::get('/', function() {
-        return view('kathymcconnell.home', 
+        return view('kathymcconnell.home',
             [
                 "assetsPath" => "/assets/kathymcconnell",
                 "urlPath" => "/",
                 "viewPath" => "kathymcconnell.",
             ]);
     });
-    
+
 };
 Route::group(['domain' => 'kathymcconnell.net'], $kathymcconnell);
 Route::group(['domain' => 'kathymcconnell.local'], $kathymcconnell);
@@ -39,14 +39,14 @@ Route::group(['domain' => 'kathymcconnell.local'], $kathymcconnell);
 $kryskarnslifecoach = function() {
 
     Route::get('/', function() {
-        return view('kryskarnslifecoach.home', 
+        return view('kryskarnslifecoach.home',
             [
                 "assetsPath" => "/assets/kryskarnslifecoach",
                 "urlPath" => "/",
                 "viewPath" => "kryskarnslifecoach.",
             ]);
     });
-    
+
 };
 Route::group(['domain' => 'kryskarnslifecoach.com'], $kryskarnslifecoach);
 Route::group(['domain' => 'kryskarnslifecoach.local'], $kryskarnslifecoach);
@@ -61,7 +61,7 @@ $nwaireservices = function() {
     Route::get('/', function() {
         return view('nwaireservices.welcome')->with('path', 'nwaireservices');
     });
-    
+
 };
 Route::group(['domain' => 'nwaireservices.com'], $nwaireservices);
 Route::group(['domain' => 'nwaireservices.local'], $nwaireservices);
@@ -74,14 +74,14 @@ Route::group(['domain' => 'nwaireservices.local'], $nwaireservices);
 $simpledesignco = function() {
 
     Route::get('/', function() {
-        return view('simpledesignco.simpledesignco', 
+        return view('simpledesignco.simpledesignco',
             [
                 "assetsPath" => "/assets/simpledesignco",
                 "urlPath" => "/",
                 "viewPath" => "simpledesignco.",
             ]);
     });
-    
+
 };
 Route::group(['domain' => 'simpledesignco.com'], $simpledesignco);
 Route::group(['domain' => 'simpledesignco.local'], $simpledesignco);
@@ -101,13 +101,37 @@ $reastman = function() {
         return view('reastman.login')->with('path', 'reastman');
     });
 
-    Route::get('/previews/{id}/{page?}', 
+    Route::get('/previews/{id}/{page?}',
         [
             "uses" => "PreviewController@loadPreview",
             "page" => "home"
         ]);
-    
+
 };
 Route::group(['domain' => 'reastman.com'], $reastman);
 Route::group(['domain' => 'reastman.local'], $reastman);
 
+/*
+* Rocky Eastman
+*
+* rockyeastman.com
+*/
+$rockyeastman = function() {
+
+    Route::get('/', function() {
+        return view('reastman.home')->with('path', 'reastman');
+    });
+
+    Route::get('/login', function() {
+        return view('reastman.login')->with('path', 'reastman');
+    });
+
+    Route::get('/previews/{id}/{page?}',
+        [
+            "uses" => "PreviewController@loadPreview",
+            "page" => "home"
+        ]);
+
+};
+Route::group(['domain' => 'rockyeastman.com'], $rockyeastman);
+Route::group(['domain' => 'rockyeastman.local'], $rockyeastman);
