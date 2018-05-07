@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 
+use App\Helpers\Helper;
+
 class PreviewController extends Controller
 {
     /**
@@ -18,11 +20,13 @@ class PreviewController extends Controller
         $urlPath = "/previews/".$id;
         $viewPath = "previews.".$id;
         $viewName = "previews.".$id.".".(isset($page) ? $page : "home");
-        return view($viewName, 
+        $data = Helper::fetchJSON("/assets/previews/".$id."/data/seed.json");
+        return view($viewName,
             [
                 "assetsPath" => $assetsPath,
                 "urlPath" => $urlPath,
-                "viewPath" => $viewPath
+                "viewPath" => $viewPath,
+                "data" => $data
             ]);
     }
 }

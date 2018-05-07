@@ -496,7 +496,7 @@
     if (mode === 'frame') return window !== window.top;
   };
 
-  // Feature detects + browser sniffs  à² _à² 
+  // Feature detects + browser sniffs  à² _à²
   var userAgent = navigator.userAgent.toLowerCase();
   var appVersion = navigator.appVersion.toLowerCase();
   var touch = Webflow.env.touch = ('ontouchstart' in window) || window.DocumentTouch && document instanceof window.DocumentTouch;
@@ -795,7 +795,7 @@
     var api = {};
 
     // Cross-Domain AJAX for IE8
-    
+
 
     var $doc = $(document);
     var $forms;
@@ -859,7 +859,7 @@
       if (siteId) { data.handler = submitWebflow; return; }
 
       // Alert for disconnected Webflow forms
-      disconnected();
+      // disconnected();
     }
 
     function addListeners() {
@@ -1708,7 +1708,7 @@
     var google = null;
     var $maps;
     var namespace = '.w-widget-map';
-    var apiKey = 'AIzaSyBks0W0NawnPju70JQS5XXPOTTrguDQjWE';
+    var apiKey = 'AIzaSyDpSuaak0-tdnP-LLFG3V7BLeS88xTLbF0';
 
     // -----------------------------------
     // Module methods

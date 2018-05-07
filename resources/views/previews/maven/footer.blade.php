@@ -1,41 +1,49 @@
+@php
+    $block = $data->blocks->footer;
+    $followVisible = $block->contact->follow->visible;
+@endphp
+
 <div class="footer w-clearfix">
     <div class="footer-circle"></div>
     <div class="footer-square"></div>
     <div class="container">
         <div class="footer-content">
-            <a class="footer-logo w-inline-block" data-ix="fade-content-out" href="/"><img class="logo" src="{{ $assetsPath }}/img/logo.png"></a>
-            <div class="footer-tagline">A team with experience <em>&amp;</em> vision.</div>
+            <div class="footer-tagline">{{ $block->bigText }}</div>
             <ul class="footer-navbar link-list">
-                <li class="footer-link-list-item link-list-item"><a class="footer-navbar-link navbar-link" data-ix="fade-content-out" href="/services">Services</a></li>
-                <li class="footer-link-list-item link-list-item"><a class="footer-navbar-link navbar-link" data-ix="fade-content-out" href="/team">OUR TEAM</a></li>
-                <li class="footer-link-list-item link-list-item"><a class="footer-navbar-link navbar-link" data-ix="fade-content-out" href="/articles">articles</a></li>
-                <li class="footer-link-list-item link-list-item link-liste-item-last"><a class="footer-navbar-link navbar-link navbar-link-last" data-ix="fade-content-out" href="/contact">CONTACT</a></li>
+                @foreach($block->links as $link)
+                    <li class="footer-link-list-item link-list-item @if($loop->last) link-liste-item-last @endif">
+                        <a class="footer-navbar-link navbar-link @if($loop->last) navbar-link-last @endif" data-ix="fade-content-out" href="{{ $urlPath.$link->href }}">
+                            {{ $link->text }}
+                        </a>
+                    </li>
+                @endforeach
             </ul>
         </div>
     </div>
     <div class="footer-third">
         <h6 class="footer-third-heading">Call</h6>
-        <div class="footer-third-text">1800 433 844 (Free call)</div>
+        <div class="footer-third-text">{{ $block->contact->call }}</div>
     </div>
-    <div class="footer-third">
-        <h6 class="footer-third-heading">visit</h6>
-        <div class="footer-third-text">1021 Glenferrie Road, Kooyong VIC 3145</div>
-    </div>
-    <div class="footer-third">
-        <h6 class="footer-third-heading">Follow</h6>
-        <ul class="link-list social-list w-list-unstyled">
-            <li class="link-list-item social-list-item">
-                <a class="social-link w-inline-block" href="#"><img class="social-icon" src="{{ $assetsPath }}/img/linkedin.svg"></a>
-            </li>
-            <li class="link-list-item social-list-item">
-                <a class="social-link w-inline-block" href="#"><img class="social-icon" src="{{ $assetsPath }}/img/googleplus.svg"></a>
-            </li>
-            <li class="link-list-item social-list-item">
-                <a class="social-link w-inline-block" href="#"><img class="social-icon" src="{{ $assetsPath }}/img/twitter.svg"></a>
-            </li>
-            <li class="link-list-item">
-                <a class="social-link w-inline-block" href="#"><img class="social-icon" src="{{ $assetsPath }}/img/facebook.svg"></a>
-            </li>
-        </ul>
-    </div>
+    @if(!$followVisible)
+        <div class="footer-third">
+            <h6 class="footer-third-heading">Email</h6>
+            <div class="footer-third-text">{{ $block->contact->email }}</div>
+        </div>
+    @endif
+        <div class="footer-third">
+            <h6 class="footer-third-heading">Visit</h6>
+            <div class="footer-third-text">{{ $block->contact->visit }}</div>
+        </div>
+    @if($followVisible)
+        <div class="footer-third">
+            <h6 class="footer-third-heading">Follow</h6>
+            <ul class="link-list social-list w-list-unstyled">
+                @foreach($block->contact->follow->socials as $social)
+                    <li class="link-list-item social-list-item">
+                        <a class="social-link w-inline-block" href="{{ $social->href }}"><img class="social-icon" src="{{ $assetsPath.$social->icon }}"></a>
+                    </li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
 </div>

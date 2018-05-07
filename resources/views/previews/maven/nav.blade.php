@@ -1,3 +1,7 @@
+@php
+    $block = $data->blocks->nav;
+@endphp
+
 <div class="navigation" data-ix="show-back-to-top" id="top">
     <div class="container">
         <div class="navbar w-nav" data-animation="default" data-collapse="small" data-duration="400">
@@ -9,12 +13,14 @@
                         <div class="nav-toggle w-icon-nav-menu"></div>
                     </div>
                     <nav class="nav-menu w-clearfix w-nav-menu" role="navigation">
-                        <a class="navbar-link w-nav-link" data-ix="fade-content-out" href="{{ $urlPath }}">Home</a>
-                        <a class="navbar-link w-nav-link" data-ix="fade-content-out" href="{{ $urlPath }}/profile">profile</a>
-                        <a class="navbar-link w-nav-link" data-ix="fade-content-out" href="{{ $urlPath }}/services">services</a>
-                        <a class="navbar-link w-nav-link" data-ix="fade-content-out" href="{{ $urlPath }}/team">Our team</a>
-                        <a class="navbar-link w-nav-link" data-ix="fade-content-out" href="{{ $urlPath }}/articles">articles</a>
-                        <a class="button nav-button w-button" data-ix="fade-content-out" href="{{ $urlPath }}/contact">get in touch</a>
+                        @foreach($block->links as $link)
+                            <a class="navbar-link w-nav-link" data-ix="fade-content-out" href="{{ $urlPath.$link->href }}">
+                                {{ $link->text }}
+                            </a>
+                        @endforeach
+                        <a class="button nav-button w-button" data-ix="fade-content-out" href="{{ $urlPath.$block->bigLink->href }}">
+                            {{ $block->bigLink->text }}
+                        </a>
                     </nav>
                 </div>
             </div>
