@@ -16,11 +16,17 @@ class PreviewController extends Controller
      */
     public function loadPreview($id, $page = "home")
     {
-        $assetsPath = "/assets/previews/".$id;
-        $urlPath = "/previews/".$id;
-        $viewPath = "previews.".$id;
-        $viewName = "previews.".$id.".".(isset($page) ? $page : "home");
-        $data = Helper::fetchJSON("/assets/previews/".$id."/data/seed.json");
+        // Set base file paths for views
+        $assetsPath = "/assets/previews/maven";
+        $urlPath = "/previews/maven";
+        $viewPath = "previews.maven";
+        $viewName = "previews.maven.".(isset($page) ? $page : "home");
+
+        // Load seed
+        $defaultSeedPath = "/assets/previews/maven/seeds/__default.json";
+        $seedPath = "/assets/previews/maven/seeds/".$id.".json";
+        $data = (Helper::fetchJSON($seedPath) ? Helper::fetchJSON($seedPath) : Helper::fetchJSON($defaultSeedPath));
+        
         return view($viewName,
             [
                 "assetsPath" => $assetsPath,

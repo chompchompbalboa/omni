@@ -11,8 +11,12 @@ class Helper
     */
     public static function fetchJSON($location)
     {
-        $contents= file_get_contents(getcwd().$location);
-        $json = json_decode($contents);
+        $contents= @file_get_contents(getcwd().$location);
+        if($contents) {
+            $json = json_decode($contents);
+        } else {
+            $json = false;
+        }
 
         return $json;
     }
