@@ -24,7 +24,7 @@
 						<li><a href="#three">Writings</a></li>
 						<li><a href="#four">Photos</a></li>
 						<li><a href="#five">Events</a></li>
-						<li><a href="#six">Awards</a></li>
+						<li><a href="#six">Awards and Recognition</a></li>
 						<li><a href="#seven">Blog</a></li>
 						<li><a href="#eight">Contact</a></li>
 					</ul>
@@ -147,7 +147,7 @@
 											<p>
 												<br/>
 												“I was a mere child at the time in the 50’s at the beginning of my education as a houser. … I
-												would come to specialize in middle-class houses.”<sup>1</sup>
+												would come to specialize in middle-class houses.”
 											</p>
 											<p>
 												Growing up in a home built with cinder blocks in a suburb of Reno, Nevada, I began a lifelong
@@ -155,7 +155,7 @@
 												News, Virginia in my Uncle Charlie and Aunt Margaret’s Buick, I furthered my education:
 												“Quietly from the spacious backseat, I took in their house critiques. By the time I was ten, I
 												assumed all children studied rooflines, window styles or were conversant in architectural terms
-												like vestibules, saltbox, and corbels.”<sup>2</sup>
+												like vestibules, saltbox, and corbels.”
 											</p>
 											<p>
 												The Education of an American Houser, as a literary memoir, adds to the conversation with the
@@ -164,7 +164,7 @@
 												unfamiliar word, but in Houser: The Life and Work of Catherine Bauer, 1905-64, Peter
 												Oberlander, one author, describes a “houser” in this quote from the preface: “Catherine talked
 												about housing not only in terms of architectural or urban planning, but as social responsibility.
-												As a “houser,” she saw housing as a bridge between architecture and planning.”<sup>3</sup>
+												As a “houser,” she saw housing as a bridge between architecture and planning.”<sup>1</sup>
 											</p>
 											<p>
 												Like Catherine, I became aware of an imbalance of resources, ideas and roles in housing. While
@@ -191,12 +191,7 @@
 												_____________________________
 											</p>
 											<p>
-												<sup>1</sup>McConnell, Kathy, The Education of an American Houser — A Sampling of Observations.
-												Observation One.
-												<br />
-												<sup>2</sup>McConnell, Observation Five.
-												<br />
-												<sup>3</sup>Oberlander, Peter H. and Newbrun, Eva, Houser: The Life and Work of Catherine Bauer,
+												<sup>1</sup>Oberlander, Peter H. and Newbrun, Eva, Houser: The Life and Work of Catherine Bauer,
 												(UBC Press, 2000), XIV Preface.
 											</p>
 										</article>
@@ -420,10 +415,16 @@
 						<!-- Awards -->
 						<section id="six">
 							<div class="container">
-								<h2>Awards</h2>
+								<h2>Awards and Recognition</h2>
 								<p>
-									Helen R. Whiteley Writer’s Residency, October 2016, San Juan Islands<br/>
-									Pacific Northwest Writers Association Memoir Finalist, 2017
+									Helen R. Whiteley Writer’s Residency, October 2016, San Juan Islands<br/><br/>
+									Pacific Northwest Writers Association Memoir Finalist, 2017<br/><br/>
+									The Washington State Parks Adventure Awaits website reposted a blog piece from Box of Tales:<br/>
+                  <a target="_blank" href="http://adventureawaits.com/266/A-visual-bombardment-at-Battery-Allen-6">http://adventureawaits.com/266/A-visual-bombardment-at-Battery-Allen-6</a><br/><br/>
+									The Great Pacific Northwest Instagram site posted a photo that I took in the fall of 2017 of Dead Man's Cove,Washington:<br/>
+                  <a target="_blank" href="https://www.instagram.com/p/BiR4Aaxg9SN/?taken-by=thegreat_pnw">https://www.instagram.com/p/BiR4Aaxg9SN/?taken-by=thegreat_pnw</a><br/><br/>
+									I am now a regular Guest Columnist of The Union Bulletin newspaper of Walla Walla, Washington:<br/>
+                  <a target="_blank" href="http://www.union-bulletin.com/local_columnists/focal_point/are-landmarks-orientation-or-gps-skills-in-your-toolbox/article_a67e6c4e-92ad-11e8-b046-8708e6813a39.html">http://www.union-bulletin.com/local_columnists/focal_point/are-landmarks-orientation-or-gps-skills-in-your-toolbox/article_a67e6c4e-92ad-11e8-b046-8708e6813a39.html</a><br/><br/>
 								</p>
 							</div>
 						</section>
