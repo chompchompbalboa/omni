@@ -18,7 +18,7 @@ class PreviewController extends Controller
     {
         // Set base file paths for views
         $assetsPath = "/assets/previews/maven";
-        $urlPath = "/previews/maven";
+        $urlPath = "/previews/".$id;
         $viewPath = "previews.maven";
         $viewName = "previews.maven.".(isset($page) ? $page : "home");
 

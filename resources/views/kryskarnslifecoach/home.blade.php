@@ -24,14 +24,11 @@
                         </div>
                         <div class="content">
                             <div class="inner">
-                                <header class="editable" id="untitled-region-1"><h1>krys karns</h1>
-<h3>Life Coach</h3>
-<p class="re_subheader"><strong>soar with clarity and</strong></p>
-<p class="re_subheader"><strong>awaken your passion</strong></p></header>
+                            <img class="re_home-logo" src="{{ $assetsPath }}/images/logo_v2.png" alt="">
                                 <nav id="nav">
                                     <ul class="actions vertical special spinY">
                                         <li><a href="#about" class="button">Who I Am</a></li>
-                                        <li><a href="#lifecoaching-1" class="button">Life Coaching</a></li>
+                                        <li><a href="#lifecoaching-1" class="button">What is Coaching</a></li>
                                         <li><a href="#services" class="button">Services</a></li>
                                         <li><a href="#contact" class="button">Contact Me</a></li>
                                     </ul>
@@ -51,10 +48,10 @@
                             </ul>
                             <div class="inner">
                                 <header>
-                                    <h2 class="editable" id="untitled-region-2">Life Coaching</h2>
+                                    <h2 class="editable" id="untitled-region-2">What is Coaching</h2>
                                     <h3></h3>
                                 </header>
-                                <p class="editable" id="untitled-region-3">Life coaching is a transformative process that is designed to support you in moving forward powerfully in your life. It provides you with tools to discover and achieve what you want most. It utilizes your intention to find your strengths and provide new prospective on what is blocking you.</p>
+                                <p class="editable" id="untitled-region-3">Coaching is a transformative process that is designed to support you in moving forward powerfully in your life. It provides you with tools to discover and achieve what you want most. It utilizes your intention to find your strengths and provide new prospective on what is blocking you.</p>
                                 <p class="editable" id="untitled-region-5">A coach guides you to articulate your aspirations, clarity of choices before you and create action plans to achieve success.</p>
                                 <p class="editable" id="untitled-region-10">I believe you have the answers within you.</p>        
                             </div>
@@ -64,7 +61,7 @@
                 <!-- About -->
                     <article id="about" class="panel secondary">
                         <div class="image editable-gallery" id="untitled-region-17">
-<a href="{{ $assetsPath }}/images/logo.jpg"><img src="{{ $assetsPath }}/images/logo.jpg" alt="" style="display: none;"></a>
+<a href="{{ $assetsPath }}/images/logo.jpg"><img src="{{ $assetsPath }}/images/headshot.jpg" alt="" style="display: none;"></a>
 </div>
                         <div class="content">
                             <ul class="actions spinX">
@@ -75,9 +72,9 @@
                                     <h2 class="editable" id="untitled-region-6">Who I Am</h2>
                                     <h3></h3>
                                 </header>
-                                <p class="editable" id="untitled-region-7">I offer the tools and insight to help put you on a positive path of growth, self-empowerment and success. If you feel stuck, or unsure of your path, I will help guide you to shift and find the motivation and awareness within to make significant transformations.</p>
-                                <p class="editable" id="untitled-region-8">Originally from Los Angeles, Seattle is now my home. Following a successful career in the film industry, corporate marketing and non-profit, I ultimately realized my calling: to help make a meaningful impact in people's lives.</p>
-                                <p class="editable" id="untitled-region-9"><em>Graduate, Seattle Life Coach Training<br>Certified, Neuro Linguistic Programming, AIP<br> B.A. from California State University Northridge - Radio, Television and Film<br> Association of Washington Business, Member </em></p>
+                                <p class="editable" id="untitled-region-7">I offer the tools and insight to help put you on a positive path of growth, self-empowerment and success. If you feel stuck, or unsure of your path, I will guide you to shift and find the motivation and awareness within to discover significant breakthroughs.</p>
+                                <p class="editable" id="untitled-region-8">Originally from Los Angeles, Seattle is now my home. Following a successful career in the film industry, corporate marketing and non-profit, I ultimately realized my calling: to empower and uplift others to their greatest selves.</p>
+                                <p class="editable" id="untitled-region-9"><em>Graduate, Seattle Life Coach Training<br>Certified, Neuro Linguistic Programming, AIP<br> B.A. from California State University Northridge - Radio, Television and Film<br> Member, International Coach Federation</em></p>
                             </div>
                         </div>
                     </article>
@@ -97,8 +94,8 @@
                                     <h3></h3>
                                 </header>
                                 <p class="editable" id="untitled-region-20">Having a life coach does not mean you need to be fixed.  It means you are ready to  awaken the power within, create balance and move forward to transform your life.</p> 
-                                <p class="editable" id="untitled-region-20">Are you ready?</p> 
-                                <p class="editable" id="untitled-region-21"><a href="#contact">Contact me</a> today to schedule a 1 hour complimentary one on one session.</p>
+                                <p class="editable" id="untitled-region-20">Take the 1st step in your journey.</p> 
+                                <p class="editable" id="untitled-region-21"><a href="#contact">Contact me</a> today and we can schedule a half hour complimentary one on one “Discovery Session.”</p>
                             </div>
                         </div>
                     </article>
@@ -114,8 +111,8 @@
                                     <h2 class="editable" id="untitled-region-18">Contact</h2>
                                     <h3></h3>
                                 </header>
-                                <p class="editable" id="untitled-region-22">If you are looking to create more purpose and passion in your life, I’d love to learn how I can support you on your journey. Coaching can take place in person or&nbsp;over the phone.</p> 
-                                <p class="editable" id="untitled-region-4">Contact me today and we can schedule a 1 hour complementary session.</p>
+                                <p class="editable" id="untitled-region-22">If you are looking to create more purpose and passion in your life, I’d love to learn how I can support you on your journey. Coaching can take place in person, over the phone or Zoom screen to screen.</p> 
+                                <p class="editable" id="untitled-region-4">Contact me today and we can schedule a half hour complimentary one on one “Discovery Session.”</p>
                             </div>
                         </div>
                         <div class="content">

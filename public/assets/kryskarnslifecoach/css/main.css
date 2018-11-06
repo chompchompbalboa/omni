@@ -755,7 +755,7 @@
 					}
 
 					ul.actions.vertical li > .button {
-						min-width: 15em;
+						min-width: 18em;
 					}
 
 				ul.actions.vertical.special li:after {
@@ -1580,4 +1580,16 @@
 
 	.re_subheader {
 		font-size: 1em;
-	}
+  }
+  
+  .re_home-logo {
+    width: 60%;
+    height: auto;
+    margin-bottom: 2vh;
+  }
+
+  @media screen and (max-width: 736px) {
+    .re_home-logo {
+      margin-bottom: 0;
+    }
+  }
