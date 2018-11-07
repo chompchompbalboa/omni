@@ -1583,13 +1583,14 @@
   }
   
   .re_home-logo {
-    width: 60%;
+    width: 45%;
     height: auto;
-    margin-bottom: 2vh;
+    margin-bottom: 6vh;
   }
 
   @media screen and (max-width: 736px) {
     .re_home-logo {
+      width: 60%;
       margin-bottom: 0;
     }
   }

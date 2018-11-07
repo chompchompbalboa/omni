@@ -74,7 +74,7 @@
                                 </header>
                                 <p class="editable" id="untitled-region-7">I offer the tools and insight to help put you on a positive path of growth, self-empowerment and success. If you feel stuck, or unsure of your path, I will guide you to shift and find the motivation and awareness within to discover significant breakthroughs.</p>
                                 <p class="editable" id="untitled-region-8">Originally from Los Angeles, Seattle is now my home. Following a successful career in the film industry, corporate marketing and non-profit, I ultimately realized my calling: to empower and uplift others to their greatest selves.</p>
-                                <p class="editable" id="untitled-region-9"><em>Graduate, Seattle Life Coach Training<br>Certified, Neuro Linguistic Programming, AIP<br> B.A. from California State University Northridge - Radio, Television and Film<br> Member, International Coach Federation</em></p>
+                                <p class="editable" id="untitled-region-9"><em>Graduate, Seattle Life Coach Training<br>Certified, Neuro Linguistic Programming, AIP<br> B.A. from California State University Northridge - Radio, Television and Film<br> Member, International Coach Federation<br> Affiliate, Accomplishment Coaching</em></p>
                             </div>
                         </div>
                     </article>
