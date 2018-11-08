@@ -1583,7 +1583,7 @@
   }
   
   .re_home-logo {
-    width: 52.5%;
+    width: 52%;
     height: auto;
     margin-bottom: 3vh;
   }
@@ -1592,5 +1592,6 @@
     .re_home-logo {
       width: 80%;
       margin-bottom: 0;
+      
     }
   }
