@@ -24,11 +24,14 @@
                         </div>
                         <div class="content">
                             <div class="inner">
-                            <img class="re_home-logo" src="{{ $assetsPath }}/images/logo_v2.png" alt="">
+                              <header class="editable" id="untitled-region-1"><h1>krys karns</h1>
+                                <h3>Life Coach</h3>	
+                                <p class="re_subheader"><strong>Ignite the real flame</strong></p>	
+                                <p class="re_subheader"><strong>of beauty in your soul</strong></p>
+                              </header>
                                 <nav id="nav">
                                     <ul class="actions vertical special spinY">
                                         <li><a href="#about" class="button">Who I Am</a></li>
-                                        <li><a href="#lifecoaching-1" class="button">What is Coaching</a></li>
                                         <li><a href="#services" class="button">Services</a></li>
                                         <li><a href="#contact" class="button">Contact Me</a></li>
                                     </ul>
@@ -37,31 +40,10 @@
                         </div>
                     </article>
 
-                <!-- Life Coaching 1 -->
-                    <article id="lifecoaching-1" class="panel secondary">
-                        <div class="image editable-gallery" id="untitled-region-15">
-                            <img src="{{ $assetsPath }}/images/KrysCoaching4.jpg" alt="" style="display: none;">
-                        </div>
-                        <div class="content">
-                            <ul class="actions spinX">
-                                <li><a href="#home" class="button small back">Home</a></li>
-                            </ul>
-                            <div class="inner">
-                                <header>
-                                    <h2 class="editable" id="untitled-region-2">What is Coaching</h2>
-                                    <h3></h3>
-                                </header>
-                                <p class="editable" id="untitled-region-3">Coaching is a transformative process that is designed to support you in moving forward powerfully in your life. It provides you with tools to discover and achieve what you want most. It utilizes your intention to find your strengths and provide new prospective on what is blocking you.</p>
-                                <p class="editable" id="untitled-region-5">A coach guides you to articulate your aspirations, clarity of choices before you and create action plans to achieve success.</p>
-                                <p class="editable" id="untitled-region-10">I believe you have the answers within you.</p>        
-                            </div>
-                        </div>
-                    </article>
-
                 <!-- About -->
                     <article id="about" class="panel secondary">
                         <div class="image editable-gallery" id="untitled-region-17">
-<a href="{{ $assetsPath }}/images/logo.jpg"><img src="{{ $assetsPath }}/images/headshot.jpg" alt="" style="display: none;"></a>
+<a href="{{ $assetsPath }}/images/logo.jpg"><img src="{{ $assetsPath }}/images/logo_recolor.jpg" alt="" style="display: none;"></a>
 </div>
                         <div class="content">
                             <ul class="actions spinX">
@@ -72,8 +54,8 @@
                                     <h2 class="editable" id="untitled-region-6">Who I Am</h2>
                                     <h3></h3>
                                 </header>
-                                <p class="editable" id="untitled-region-7">I offer the tools and insight to help put you on a positive path of growth, self-empowerment and success. If you feel stuck, or unsure of your path, I will guide you to shift and find the motivation and awareness within to discover significant breakthroughs.</p>
-                                <p class="editable" id="untitled-region-8">Originally from Los Angeles, Seattle is now my home. Following a successful career in the film industry, corporate marketing and non-profit, I ultimately realized my calling: to empower and uplift others to their greatest selves.</p>
+                                <p class="editable" id="untitled-region-7">I am a life coach who specializes in guiding clients to embrace their confidence and take bold action, so they can make the impossible possible in their personal or professional life. Having successfully navigated multiple life and career transitions and being Certified in Neuro Linguistic Programming (NLP) gives me the mindset and tools to help others do the same. I offer one-on-one coaching to individuals who are motivated to take on new challenges and achieve goals they have previously only dreamt of.</p>
+                                <p class="editable" id="untitled-region-8">Originally from Los Angeles, I now live in Seattle with my partner and two kitties. Prior to committing myself to empowering others to ignite the real flame of beauty in the soul, I worked in the film industry, corporate marketing and non-profit program coordination.</p>
                                 <p class="editable" id="untitled-region-9"><em>Graduate, Seattle Life Coach Training<br>Certified, Neuro Linguistic Programming, AIP<br> B.A. from California State University Northridge - Radio, Television and Film<br> Member, International Coach Federation<br> Affiliate, Accomplishment Coaching</em></p>
                             </div>
                         </div>
@@ -82,7 +64,7 @@
                 <!-- Services -->
                     <article id="services" class="panel secondary">
                         <div class="image editable-gallery" id="untitled-region-14">
-<a href="{{ $assetsPath }}/images/rocks.jpg"><img src="{{ $assetsPath }}/images/rocks.jpg" alt="" style="display: none;"></a>
+<a href="{{ $assetsPath }}/images/rocks.jpg"><img src="{{ $assetsPath }}/images/Krys-C.1.jpg" alt="" style="display: none;"></a>
 </div>
                         <div class="content">
                             <ul class="actions spinX">
@@ -93,9 +75,9 @@
                                     <h2 class="editable" id="untitled-region-19">Services</h2>
                                     <h3></h3>
                                 </header>
-                                <p class="editable" id="untitled-region-20">Having a life coach does not mean you need to be fixed.  It means you are ready to  awaken the power within, create balance and move forward to transform your life.</p> 
-                                <p class="editable" id="untitled-region-20">Take the 1st step in your journey.</p> 
-                                <p class="editable" id="untitled-region-21"><a href="#contact">Contact me</a> today and we can schedule a half hour complimentary one on one “Discovery Session.”</p>
+                                <p class="editable" id="untitled-region-20">The type of coaching I practice is Ontological Coaching. By exploring the nature of who you are “Being” and not only “Doing” you are empowered to uncover the best version of yourself. When you say “Yes” to working with me, we will co-design a unique plan for you to achieve your goals. Between our sessions, you will take on powerful practices to create transforms in your life.</p> 
+                                <p class="editable" id="untitled-region-20">I require a one month commitment from my clients. Four one-hour sessions a month. Coaching can take place in person, over the phone or a Zoom meeting. We can start with a complimentary Discovery Session so that you can experience the power of coaching. This may be the most important gift you will give yourself. </p> 
+                                <p class="editable" id="untitled-region-21"><a href="#contact">Contact me</a> today and we can schedule an appointment</p>
                             </div>
                         </div>
                     </article>
@@ -111,8 +93,8 @@
                                     <h2 class="editable" id="untitled-region-18">Contact</h2>
                                     <h3></h3>
                                 </header>
-                                <p class="editable" id="untitled-region-22">If you are looking to create more purpose and passion in your life, I’d love to learn how I can support you on your journey. Coaching can take place in person, over the phone or Zoom screen to screen.</p> 
-                                <p class="editable" id="untitled-region-4">Contact me today and we can schedule a half hour complimentary one on one “Discovery Session.”</p>
+                                <p class="editable" id="untitled-region-22">If you want to learn more about coaching or are ready to have a complimentary Discovery Session, please contact me by filling out this form. </p> 
+                                <p class="editable" id="untitled-region-4">I’d love to hear from you.</p>
                             </div>
                         </div>
                         <div class="content">
