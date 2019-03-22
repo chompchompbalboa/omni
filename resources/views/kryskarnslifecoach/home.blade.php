@@ -43,7 +43,7 @@
                 <!-- About -->
                     <article id="about" class="panel secondary">
                         <div class="image editable-gallery" id="untitled-region-17">
-<a href="{{ $assetsPath }}/images/logo.jpg"><img src="{{ $assetsPath }}/images/logo_recolor.jpg" alt="" style="display: none;"></a>
+<a href="{{ $assetsPath }}/images/logo.jpg"><img src="{{ $assetsPath }}/images/logo_multicolored.jpg" alt="" style="display: none;"></a>
 </div>
                         <div class="content">
                             <ul class="actions spinX">
@@ -75,9 +75,11 @@
                                     <h2 class="editable" id="untitled-region-19">Services</h2>
                                     <h3></h3>
                                 </header>
-                                <p class="editable" id="untitled-region-20">The type of coaching I practice is Ontological Coaching. By exploring the nature of who you are “Being” and not only “Doing” you are empowered to uncover the best version of yourself. When you say “Yes” to working with me, we will co-design a unique plan for you to achieve your goals. Between our sessions, you will take on powerful practices to create transforms in your life.</p> 
-                                <p class="editable" id="untitled-region-20">I require a one month commitment from my clients. Four one-hour sessions a month. Coaching can take place in person, over the phone or a Zoom meeting. We can start with a complimentary Discovery Session so that you can experience the power of coaching. This may be the most important gift you will give yourself. </p> 
-                                <p class="editable" id="untitled-region-21"><a href="#contact">Contact me</a> today and we can schedule an appointment</p>
+                                <p>The type of coaching I practice is Ontological Coaching. This means that you will explore the nature of who you are “Being” along with what you are “Doing” so that you can uncover the best version of yourself.</p> 
+                                <p>When you say “Yes” to working with me, we partner to co-design a life that is uniquely yours and co-create a long-term plan for you to achieve your goals. Between our sessions, you will take on powerful actions that move you closer to realizing your dreams.</p> 
+                                <p>I work one-on-one with clients for four one-hour sessions a month. I require a one month commitment from my clients. Coaching can take place in person, over the phone or via the internet. To discover what is possible for you, I offer a complimentary Discovery Session where you can experience the power of coaching. This may be the most important gift you can give yourself.</p> 
+                                <p>I am committed to ignite the real flame of beauty in your soul. What does that mean for you? Let’s find out.</p> 
+                                <p><a href="#contact">Contact me</a> today and we can schedule an appointment</p>
                             </div>
                         </div>
                     </article>
