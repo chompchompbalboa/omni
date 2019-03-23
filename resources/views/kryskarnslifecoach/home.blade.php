@@ -25,9 +25,9 @@
                         <div class="content">
                             <div class="inner">
                               <header class="editable" id="untitled-region-1"><h1>krys karns</h1>
-                                <h3>Life Coach</h3>	
-                                <p class="re_subheader"><strong>Ignite the real flame</strong></p>	
-                                <p class="re_subheader"><strong>of beauty in your soul</strong></p>
+                                <h3>Coaching</h3>	
+                                <p class="re_subheader"><strong>Ignite the flame of</strong></p>	
+                                <p class="re_subheader"><strong>beauty in your soul</strong></p>
                               </header>
                                 <nav id="nav">
                                     <ul class="actions vertical special spinY">
@@ -55,7 +55,7 @@
                                     <h3></h3>
                                 </header>
                                 <p class="editable" id="untitled-region-7">I am a life coach who specializes in guiding clients to embrace their confidence and take bold action, so they can make the impossible possible in their personal or professional life. Having successfully navigated multiple life and career transitions and being Certified in Neuro Linguistic Programming (NLP) gives me the mindset and tools to help others do the same. I offer one-on-one coaching to individuals who are motivated to take on new challenges and achieve goals they have previously only dreamt of.</p>
-                                <p class="editable" id="untitled-region-8">Originally from Los Angeles, I now live in Seattle with my partner and two kitties. Prior to committing myself to empowering others to ignite the real flame of beauty in the soul, I worked in the film industry, corporate marketing and non-profit program coordination.</p>
+                                <p class="editable" id="untitled-region-8">Originally from Los Angeles, I now live in Seattle with my partner and two kitties. Prior to committing myself to empowering others to ignite the flame of beauty in the soul, I worked in the film industry, corporate marketing and non-profit program coordination.</p>
                                 <p class="editable" id="untitled-region-9"><em>Graduate, Seattle Life Coach Training<br>Certified, Neuro Linguistic Programming, AIP<br> B.A. from California State University Northridge - Radio, Television and Film<br> Member, International Coach Federation<br> Affiliate, Accomplishment Coaching</em></p>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                                 <p>The type of coaching I practice is Ontological Coaching. This means that you will explore the nature of who you are “Being” along with what you are “Doing” so that you can uncover the best version of yourself.</p> 
                                 <p>When you say “Yes” to working with me, we partner to co-design a life that is uniquely yours and co-create a long-term plan for you to achieve your goals. Between our sessions, you will take on powerful actions that move you closer to realizing your dreams.</p> 
                                 <p>I work one-on-one with clients for four one-hour sessions a month. I require a one month commitment from my clients. Coaching can take place in person, over the phone or via the internet. To discover what is possible for you, I offer a complimentary Discovery Session where you can experience the power of coaching. This may be the most important gift you can give yourself.</p> 
-                                <p>I am committed to ignite the real flame of beauty in your soul. What does that mean for you? Let’s find out.</p> 
+                                <p>I am committed to ignite the flame of beauty in your soul. What does that mean for you? Let’s find out.</p> 
                                 <p><a href="#contact">Contact me</a> today and we can schedule an appointment</p>
                             </div>
                         </div>
