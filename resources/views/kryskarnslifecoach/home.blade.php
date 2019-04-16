@@ -79,7 +79,7 @@
                                 <p>When you say “Yes” to working with me, we partner to co-design a life that is uniquely yours and co-create a long-term plan for you to achieve your goals. Between our sessions, you will take on powerful actions that move you closer to realizing your dreams.</p> 
                                 <p>I work one-on-one with clients for four one-hour sessions a month. I require a one month commitment from my clients. Coaching can take place in person, over the phone or via the internet. To discover what is possible for you, I offer a complimentary Discovery Session where you can experience the power of coaching. This may be the most important gift you can give yourself.</p> 
                                 <p>I am committed to ignite the flame of beauty in your soul. What does that mean for you? Let’s find out.</p> 
-                                <p><a href="#contact">Contact me</a> today and we can schedule an appointment</p>
+                                <p><a href="#contact">Contact me</a> today and we can schedule an appointment.</p>
                             </div>
                         </div>
                     </article>
