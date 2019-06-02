@@ -133,11 +133,6 @@
 												being a topographer of sorrow provides one with relief.  Eventually, I roll and store my “Map of 
 												Grief” and my travels continue on to new maps. 
 											</p>
-											<h4>A Reading:</h4>
-											<audio 
-												src="{{ $assetsPath }}/audio/reading1.m4a"
-												controls
-											></audio>
 										</article>
 										<article>
 											<div class="inner">
@@ -211,18 +206,20 @@
 									Playing with the framing, being quietly alert and remembering to hold the camera still.  
 									Enjoy.
 									<br/><br/>
+                  Instagram: <a target="_blank" href="https://www.picbob.com/user/kathy.mcconnell.505/1492790652">kathy.mconnell.505</a>
+									<br/><br/>
 									Permission from the author is required for reprint or reuse.   
 								</p>
 								<div class="box alt">
 									<div class="row 50% uniform">
 										<div class="4u">
 											<span class="image fit">
-												<img src="{{ $assetsPath }}/images/photos/photo1.png" alt="" />
+												<img src="{{ $assetsPath }}/images/photos/photo1.jpeg" alt="" />
 											</span>
 											<p>
-												“Girl Crossing the Millennium”<br/>
-												London, England<br/>
-												2016
+												“Lines and Bales”<br/>
+												Oregon<br/>
+												2015
 											</p>
 										</div>
 										<div class="4u">
@@ -237,39 +234,39 @@
 										</div>
 										<div class="4u">
 											<span class="image fit">
-												<img src="{{ $assetsPath }}/images/photos/photo3.png" alt="" />
+												<img src="{{ $assetsPath }}/images/photos/photo3.jpg" alt="" />
 											</span>
 											<p>
-												“Tinted Beach”<br/>
-												Ocean Shores, Washington<br/>
-												2017
+												“Leaves Under Water”<br/>
+												Mill Creek River, Washington<br/>
+												2018
 											</p>
 										</div>
 									</div>
 									<div class="row 50% uniform">
 										<div class="4u">
 											<span class="image fit">
-												<img src="{{ $assetsPath }}/images/photos/photo4.png" alt="" />
+												<img src="{{ $assetsPath }}/images/photos/photo4.jpeg" alt="" />
 											</span>
 											<p>
-												“Women on the Ferry”<br/>
-												San Juan Islands<br/>
-												2015
+												“Scenic Loop in the Fog with Beer Can”<br/>
+												Walla Walla, Washington<br/>
+												2019
 											</p>
 										</div>
 										<div class="4u">
 											<span class="image fit">
-												<img src="{{ $assetsPath }}/images/photos/photo5.png" alt="" />
+												<img src="{{ $assetsPath }}/images/photos/photo5.jpeg" alt="" />
 											</span>
 											<p>
-												“Flying Above”<br/>
-												Los Padres National Forest, California<br/>
-												2015
+												“Road North”<br/>
+												Buroker Road, Walla Walla, Washington<br/>
+												2019
 											</p>
 										</div>
 										<div class="4u">
 											<span class="image fit">
-												<img src="{{ $assetsPath }}/images/photos/photo6.png" alt="" />
+												<img src="{{ $assetsPath }}/images/photos/photo6.jpeg" alt="" />
 											</span>
 											<p>
 												“The Dog's View”<br/>
@@ -417,14 +414,22 @@
 							<div class="container">
 								<h2>Awards and Recognition</h2>
 								<p>
-									Helen R. Whiteley Writer’s Residency, October 2016, San Juan Islands<br/><br/>
-									Pacific Northwest Writers Association Memoir Finalist, 2017<br/><br/>
+									Helen R. Whiteley Writer’s Residency, October 2016, San Juan Islands
+                  <br/><br/>
+									Pacific Northwest Writers Association Memoir Finalist, 2017
+                  <br/><br/>
 									The Washington State Parks Adventure Awaits website reposted a blog piece from Box of Tales:<br/>
-                  <a target="_blank" href="http://adventureawaits.com/266/A-visual-bombardment-at-Battery-Allen-6">http://adventureawaits.com/266/A-visual-bombardment-at-Battery-Allen-6</a><br/><br/>
+                  <a target="_blank" href="http://adventureawaits.com/266/A-visual-bombardment-at-Battery-Allen-6">http://adventureawaits.com/266/A-visual-bombardment-at-Battery-Allen-6</a>
+                  <br/><br/>
 									The Great Pacific Northwest Instagram site posted a photo that I took in the fall of 2017 of Dead Man's Cove,Washington:<br/>
-                  <a target="_blank" href="https://www.instagram.com/p/BiR4Aaxg9SN/?taken-by=thegreat_pnw">https://www.instagram.com/p/BiR4Aaxg9SN/?taken-by=thegreat_pnw</a><br/><br/>
+                  <a target="_blank" href="https://www.instagram.com/p/BiR4Aaxg9SN/?taken-by=thegreat_pnw">https://www.instagram.com/p/BiR4Aaxg9SN/?taken-by=thegreat_pnw</a>
+                  <br/><br/>
 									I am now a regular Guest Columnist of The Union Bulletin newspaper of Walla Walla, Washington:<br/>
-                  <a target="_blank" href="http://www.union-bulletin.com/local_columnists/focal_point/are-landmarks-orientation-or-gps-skills-in-your-toolbox/article_a67e6c4e-92ad-11e8-b046-8708e6813a39.html">http://www.union-bulletin.com/local_columnists/focal_point/are-landmarks-orientation-or-gps-skills-in-your-toolbox/article_a67e6c4e-92ad-11e8-b046-8708e6813a39.html</a><br/><br/>
+                  <a target="_blank" href="http://www.union-bulletin.com/local_columnists/focal_point/are-landmarks-orientation-or-gps-skills-in-your-toolbox/article_a67e6c4e-92ad-11e8-b046-8708e6813a39.html">http://www.union-bulletin.com/local_columnists/focal_point/are-landmarks-orientation-or-gps-skills-in-your-toolbox/article_a67e6c4e-92ad-11e8-b046-8708e6813a39.html</a>
+                  <br/><br/>
+									Burningword Literary Journal, Issue 90, April 2019, Photographic Credits:<br/>
+                  <a target="_blank" href="https://burningword.com/tag/90/">https://burningword.com/tag/90/</a>
+                  <br/><br/>
 								</p>
 							</div>
 						</section>
@@ -449,353 +454,6 @@
 								<p>Email: <a href="mailto:kathymcconnell5@gmail.com">kathymcconnell5@gmail.com</a></p>
 							</div>
 						</section>
-
-						<!-- Five -->
-						<!--
-							<section id="five">
-								<div class="container">
-									<h3>Elements</h3>
-
-									<section>
-										<h4>Text</h4>
-										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-										<hr />
-										<header>
-											<h4>Heading with a Subtitle</h4>
-											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-										</header>
-										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-										<header>
-											<h5>Heading with a Subtitle</h5>
-											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-										</header>
-										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-										<hr />
-										<h2>Heading Level 2</h2>
-										<h3>Heading Level 3</h3>
-										<h4>Heading Level 4</h4>
-										<h5>Heading Level 5</h5>
-										<h6>Heading Level 6</h6>
-										<hr />
-										<h5>Blockquote</h5>
-										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-										<h5>Preformatted</h5>
-										<pre><code>i = 0;
-
-	while (!deck.isInOrder()) {
-	    print 'Iteration ' + i;
-	    deck.shuffle();
-	    i++;
-	}
-
-	print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-									</section>
-
-									<section>
-										<h4>Lists</h4>
-										<div class="row">
-											<div class="6u 12u(xsmall)">
-												<h5>Unordered</h5>
-												<ul>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Sagittis adipiscing lorem eleifend.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ul>
-												<h5>Alternate</h5>
-												<ul class="alt">
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Sagittis adipiscing lorem eleifend.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ul>
-											</div>
-											<div class="6u 12u(xsmall)">
-												<h5>Ordered</h5>
-												<ol>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Etiam vel felis at lorem sed viverra.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-													<li>Dolor pulvinar etiam magna etiam.</li>
-													<li>Etiam vel felis at lorem sed viverra.</li>
-													<li>Felis enim feugiat dolore viverra.</li>
-												</ol>
-												<h5>Icons</h5>
-												<ul class="icons">
-													<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-													<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-													<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-													<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-													<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-													<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-												</ul>
-											</div>
-										</div>
-										<h5>Actions</h5>
-										<ul class="actions">
-											<li><a href="#" class="button special">Default</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Default</a></li>
-										</ul>
-										<ul class="actions small">
-											<li><a href="#" class="button special small">Small</a></li>
-											<li><a href="#" class="button small">Small</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-										<div class="row">
-											<div class="3u 6u(medium) 12u$(xsmall)">
-												<ul class="actions vertical">
-													<li><a href="#" class="button special">Default</a></li>
-													<li><a href="#" class="button">Default</a></li>
-													<li><a href="#" class="button alt">Default</a></li>
-												</ul>
-											</div>
-											<div class="3u 6u$(medium) 12u$(xsmall)">
-												<ul class="actions vertical small">
-													<li><a href="#" class="button special small">Small</a></li>
-													<li><a href="#" class="button small">Small</a></li>
-													<li><a href="#" class="button alt small">Small</a></li>
-												</ul>
-											</div>
-											<div class="3u 6u(medium) 12u$(xsmall)">
-												<ul class="actions vertical">
-													<li><a href="#" class="button special fit">Default</a></li>
-													<li><a href="#" class="button fit">Default</a></li>
-													<li><a href="#" class="button alt fit">Default</a></li>
-												</ul>
-											</div>
-											<div class="3u 6u$(medium) 12u$(xsmall)">
-												<ul class="actions vertical small">
-													<li><a href="#" class="button special small fit">Small</a></li>
-													<li><a href="#" class="button small fit">Small</a></li>
-													<li><a href="#" class="button alt small fit">Small</a></li>
-												</ul>
-											</div>
-										</div>
-									</section>
-
-									<section>
-										<h4>Table</h4>
-										<h5>Default</h5>
-										<div class="table-wrapper">
-											<table>
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-
-										<h5>Alternate</h5>
-										<div class="table-wrapper">
-											<table class="alt">
-												<thead>
-													<tr>
-														<th>Name</th>
-														<th>Description</th>
-														<th>Price</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Item One</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Two</td>
-														<td>Vis ac commodo adipiscing arcu aliquet.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Three</td>
-														<td> Morbi faucibus arcu accumsan lorem.</td>
-														<td>29.99</td>
-													</tr>
-													<tr>
-														<td>Item Four</td>
-														<td>Vitae integer tempus condimentum.</td>
-														<td>19.99</td>
-													</tr>
-													<tr>
-														<td>Item Five</td>
-														<td>Ante turpis integer aliquet porttitor.</td>
-														<td>29.99</td>
-													</tr>
-												</tbody>
-												<tfoot>
-													<tr>
-														<td colspan="2"></td>
-														<td>100.00</td>
-													</tr>
-												</tfoot>
-											</table>
-										</div>
-									</section>
-
-									<section>
-										<h4>Buttons</h4>
-										<ul class="actions">
-											<li><a href="#" class="button special">Special</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt">Alternate</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button special big">Big</a></li>
-											<li><a href="#" class="button">Default</a></li>
-											<li><a href="#" class="button alt small">Small</a></li>
-										</ul>
-										<ul class="actions fit">
-											<li><a href="#" class="button special fit">Fit</a></li>
-											<li><a href="#" class="button fit">Fit</a></li>
-											<li><a href="#" class="button alt fit">Fit</a></li>
-										</ul>
-										<ul class="actions fit small">
-											<li><a href="#" class="button special fit small">Fit + Small</a></li>
-											<li><a href="#" class="button fit small">Fit + Small</a></li>
-											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
-										</ul>
-										<ul class="actions">
-											<li><a href="#" class="button special icon fa-download">Icon</a></li>
-											<li><a href="#" class="button icon fa-download">Icon</a></li>
-											<li><a href="#" class="button alt icon fa-check">Icon</a></li>
-										</ul>
-										<ul class="actions">
-											<li><span class="button special disabled">Special</span></li>
-											<li><span class="button disabled">Default</span></li>
-											<li><span class="button alt disabled">Alternate</span></li>
-										</ul>
-									</section>
-
-									<section>
-										<h4>Form</h4>
-										<form method="post" action="#">
-											<div class="row uniform">
-												<div class="6u 12u(xsmall)">
-													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-												</div>
-												<div class="6u 12u(xsmall)">
-													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-												</div>
-											</div>
-											<div class="row uniform">
-												<div class="12u">
-													<div class="select-wrapper">
-														<select name="demo-category" id="demo-category">
-															<option value="">- Category -</option>
-															<option value="1">Manufacturing</option>
-															<option value="1">Shipping</option>
-															<option value="1">Administration</option>
-															<option value="1">Human Resources</option>
-														</select>
-													</div>
-												</div>
-											</div>
-											<div class="row uniform">
-												<div class="4u 12u(medium)">
-													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-													<label for="demo-priority-low">Low Priority</label>
-												</div>
-												<div class="4u 12u(medium)">
-													<input type="radio" id="demo-priority-normal" name="demo-priority">
-													<label for="demo-priority-normal">Normal Priority</label>
-												</div>
-												<div class="4u 12u(medium)">
-													<input type="radio" id="demo-priority-high" name="demo-priority">
-													<label for="demo-priority-high">High Priority</label>
-												</div>
-											</div>
-											<div class="row uniform">
-												<div class="6u 12u(medium)">
-													<input type="checkbox" id="demo-copy" name="demo-copy">
-													<label for="demo-copy">Email me a copy of this message</label>
-												</div>
-												<div class="6u 12u(medium)">
-													<input type="checkbox" id="demo-human" name="demo-human" checked>
-													<label for="demo-human">I am a human and not a robot</label>
-												</div>
-											</div>
-											<div class="row uniform">
-												<div class="12u">
-													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-												</div>
-											</div>
-											<div class="row uniform">
-												<div class="12u">
-													<ul class="actions">
-														<li><input type="submit" value="Send Message" /></li>
-														<li><input type="reset" value="Reset" class="alt" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
-									</section>
-
-									<section>
-										<h4>Image</h4>
-										<h5>Fit</h5>
-										<span class="image fit"><img src="{{ $assetsPath }}/images/banner.jpg" alt="" /></span>
-										<div class="box alt">
-											<div class="row 50% uniform">
-												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic01.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic02.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic03.jpg" alt="" /></span></div>
-											</div>
-											<div class="row 50% uniform">
-												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic02.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic03.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic01.jpg" alt="" /></span></div>
-											</div>
-											<div class="row 50% uniform">
-												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic03.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic01.jpg" alt="" /></span></div>
-												<div class="4u"><span class="image fit"><img src="{{ $assetsPath }}/images/pic02.jpg" alt="" /></span></div>
-											</div>
-										</div>
-										<h5>Left &amp; Right</h5>
-										<p><span class="image left"><img src="{{ $assetsPath }}/images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-										<p><span class="image right"><img src="{{ $assetsPath }}/images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-									</section>
-
-								</div>
-							</section>
-						-->
 
 					</div>
 
