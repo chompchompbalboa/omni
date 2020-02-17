@@ -1595,3 +1595,15 @@
       
     }
   }
+
+  .re_quote {
+    position: sticky;
+    top: 35%;
+    margin-top: 50%;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0.125em;
+    text-transform: uppercase;
+  }
