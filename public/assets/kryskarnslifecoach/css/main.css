@@ -1592,18 +1592,32 @@
     .re_home-logo {
       width: 80%;
       margin-bottom: 0;
-      
     }
   }
 
   .re_quote {
+    padding: 0 2rem;
     position: sticky;
-    top: 35%;
-    margin-top: 50%;
-    text-transform: uppercase;
-    text-align: center;
+    top: 40%;
+    margin-top: 45vh;
+    text-align: right;
     font-weight: bold;
-    font-size: 1.5rem;
-    letter-spacing: 0.125em;
-    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-style: italic;
+    white-space: nowrap;
+  }
+
+  @media screen and (max-width: 480px) {
+    .re_quote_container {
+      padding: 2rem 0;
+      min-height: 0 !important;
+      height: auto !important;
+    }
+
+    .re_quote {
+      position: relative;
+      top: 10%;
+      margin-top: 0;
+      white-space: normal;
+    }
   }

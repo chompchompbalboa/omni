@@ -41,9 +41,9 @@
 
                 <!-- About -->
                     <article id="about" class="panel secondary">
-                        <div class="content" id="untitled-region-17">
+                        <div class="image re_quote_container" id="untitled-region-17" style="background-color: #56B1BF; color: white;">
                           <div class="re_quote">
-                            “Your heart is free, have the courage to follow it.”<br/><em>Braveheart</em>
+                            “Your heart is free, have the courage to follow it.”<br/><em> ~ Braveheart</em>
                           </div>
                         </div>
                         <div class="content">
@@ -55,11 +55,11 @@
                                     <h2 class="editable" id="untitled-region-6">Who I Am</h2>
                                     <h3></h3>
                                 </header>
-                                <p class="editable" id="untitled-region-7">Stepping up to guide yourself and others forward is a significant accomplishment … and an important responsibility.</p>
+                                <p class="editable" id="untitled-region-7">Stepping up to guide yourself and others forward is a significant accomplishment...and an important responsibility.</p>
                                 <p class="editable" id="untitled-region-8">Great leadership goes beyond strategy, know-how and winning. It’s about connecting to people and inspiring them. And it requires the courage to overcome the personal obstacles that hold you back from owning your authentic voice.</p>
                                 <p class="editable" id="untitled-region-8">That’s where I come in. </p>
                                 <p class="editable" id="untitled-region-9">I help emerging leaders to confidently claim their power by showing up for themselves and others with transparency, humility, and heart. Having successfully navigated multiple life and career transitions, I know the excitement and uncertainty that comes with moving into a new role and making an impact. Through my own personal and professional development, I have been able to free myself of barriers that held me back from my heart and to shift the way I see, approach and work with others. And now I help others to do the same.  </p>
-                                <p class="editable" id="untitled-region-10">Originally from Los Angeles, I have extensive work history in the film industry, as well as corporate marketing and non-profit program coordination. I now live Seattle with my partner and two kitties. When I am not busy cultivating leaders, I spend my time chasing sun spots around my apartment building..</p>
+                                <p class="editable" id="untitled-region-10">Originally from Los Angeles, I have extensive work history in the film industry, as well as corporate marketing and non-profit program coordination. I now live Seattle with my partner and two kitties. When I am not busy cultivating leaders, I spend my time chasing sun spots around my apartment building.</p>
                                 <p class="editable" id="untitled-region-11"><em>Graduate, Accomplishment Coaching<br>Graduate, Seattle Life Coach Training<br>Certified, Neuro Linguistic Programming, AIP<br> B.A. from California State University Northridge - Radio, Television and Film</em></p>
                             </div>
                         </div>
@@ -76,7 +76,7 @@
                             </ul>
                             <div class="inner">
                                 <header>
-                                    <h2 class="editable" id="untitled-region-19">Services</h2>
+                                    <h2 class="editable" id="untitled-region-19">Working with me</h2>
                                     <h3></h3>
                                 </header>
                                 <p>To succeed in a new role requires a new set of skills and competencies. It takes clarity, courage, and humility to lead.  And you have it in you!</p> 
@@ -96,7 +96,7 @@
                             </ul>
                             <div class="inner">
                                 <header>
-                                    <h2 class="editable" id="untitled-region-18">Contact</h2>
+                                    <h2 class="editable" id="untitled-region-18">Contact Me</h2>
                                     <h3></h3>
                                 </header>
                                 <p class="editable" id="untitled-region-22">If you want to learn more about coaching or are ready to have a complimentary Discovery Session, please contact me by filling out this form. </p> 
