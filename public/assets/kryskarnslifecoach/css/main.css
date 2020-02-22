@@ -1627,10 +1627,11 @@
 
     .re_quote_container {
       padding: 4rem 0;
-      font-size: 1.75rem;
+      font-size: 1.5rem;
     }
 
     .re_quote {
+      letter-spacing: auto;
       padding-top: 0;
       position: relative;
       margin-top: 0;
