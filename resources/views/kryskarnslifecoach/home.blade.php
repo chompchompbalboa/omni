@@ -41,9 +41,11 @@
 
                 <!-- About -->
                     <article id="about" class="panel secondary">
-                        <div class="image re_quote_container" id="untitled-region-17" style="background-color: #56B1BF; color: white;">
-                          <div class="re_quote">
-                            “Your heart is free, have the courage to follow it.”<br/><em> ~ Braveheart</em>
+                        <div class="image re_quote_image_container" id="untitled-region-17">
+                          <div class="re_quote_container">
+                            <div class="re_quote">
+                              “Your heart is free, have the courage to follow it.”<br/><span class="re_quote_attribution"> - Braveheart</span>
+                            </div>
                           </div>
                         </div>
                         <div class="content">
