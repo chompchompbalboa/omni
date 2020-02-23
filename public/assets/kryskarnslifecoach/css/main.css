@@ -1620,7 +1620,7 @@
     color: rgb(125, 125, 125) !important;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 980px) {
     .re_quote_image_container {
       min-height: 0 !important;
       height: auto !important;
