@@ -1599,6 +1599,7 @@
     height: 100%;
     width: 100%;
     font-size: 2.5rem;
+    background: rgba(86,177,191,1);
     background: linear-gradient(135deg, rgba(140,216,199,1) 0%, rgba(86,177,191,1) 100%);
     color: white;
   }
